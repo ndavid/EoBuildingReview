@@ -1,0 +1,17 @@
+{
+    "title": "Automatic Building Extraction in Aerial Scenes Using Convolutional Networks",
+    "author":[
+        {"name": "Jiangye Yuan"}
+    ],
+    "type": "article",
+    "year": "2016",
+    "journal": {
+        "name": "CoRR"},
+    "link": [
+	{"url":"http://arxiv.org/abs/1602.06564"}],
+    "eprinttype" : {"arXiv"},
+    "identifier": [
+        {"type":"doi",
+	 "id":"10.1186/1758-2946-3-47"}]
+}
+      
