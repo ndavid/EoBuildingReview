@@ -5,5 +5,7 @@ format: jb-book
 root: intro
 chapters:
 - file: datasets/intro.md
+  sections:
+  - file: datasets/inria.md
 - file: INRIA_V2/intro.md
 - file: biblio.md
