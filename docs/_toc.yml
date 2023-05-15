@@ -3,9 +3,17 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: datasets/intro.md
-  sections:
-  - file: datasets/inria.md
-- file: INRIA_V2/intro.md
-- file: biblio.md
+parts:
+  - caption: Dataset for Building Extraction
+    chapters:
+    - file: datasets/intro.md
+    - file: datasets/inria.md
+  - caption: Reproductibility of INRIA dataset
+    chapters:
+    - file: INRIA_V2/intro.md
+    - file: INRIA_V2/download_raw.md
+      sections:
+      - file: INRIA_V2/austin.md
+  - caption: Litterature review
+    chapters :
+    - file: biblio.md
