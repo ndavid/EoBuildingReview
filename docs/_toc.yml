@@ -14,6 +14,7 @@ parts:
     - file: INRIA_V2/download_raw.md
       sections:
       - file: INRIA_V2/austin.md
+      - file: INRIA_V2/earth_explorer_download.md
   - caption: Litterature review
     chapters :
     - file: biblio.md

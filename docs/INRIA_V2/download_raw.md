@@ -6,23 +6,10 @@ The INRIA dataset has been made from open and public domains data sources. These
 * Retrieving the data sources for the test area of the dataset who have not been redistributed during the initial challenge. These redistribution will enable to compare methodologies with the initial attended test data. 
 
 The area are located on two countries : United State of America and Austria. For the former vector data are retrieved from different towns or counties open-data portal. 
-For the area in USA the raster data come from the USGS high resolution aerial image and could be dowloader with the [EarthExplorer portal](https://earthexplorer.usgs.gov/) and machine to machine API.
+For the area in USA the raster data come from the USGS high resolution aerial image and could be downloaded with the [EarthExplorer portal](https://earthexplorer.usgs.gov/) and machine to machine API.
 
-For a detailled step by step instructions to download and pre-process the data see the corresponding page by area :
 
-* [Austin](austin)
-* Bellingham
-* Bloomington
-* Chicago
-* Innsbruck
-* Kitsap
-* sfo (san fransisco)
-* Tyrol-e (Tyrol east)
-* Tyrol-w (Tyrol West)
-* Vienna
-
-If only the raw data sources link and metadata are needed see the following part on vector and data sources. 
-
+If only the raw data sources link and metadata are needed see the following part on vector and data sources. For detail on how-to donwload data, mnaually or in script, see the link in the two following sections. And for a detailled step by step instructions to download and pre-process the data see {ref}`content:download:area-step-by-step`
 
 ## Download vector data sources
 
@@ -107,3 +94,22 @@ If only the raw data sources link and metadata are needed see the following part
   - TODO
   - TODO
 ```
+
+To download data from [EarthExplorer portal](https://earthexplorer.usgs.gov/) see the [detailled instructions](earth_explorer_download)
+
+(content:download:area-step-by-step)=
+## Step by step instructions to download data by area
+
+
+Detailled step by step instructions to download and pre-process the data by area
+
+* [Austin](austin)
+* Bellingham
+* Bloomington
+* Chicago
+* Innsbruck
+* Kitsap
+* sfo (san fransisco)
+* Tyrol-e (Tyrol east)
+* Tyrol-w (Tyrol West)
+* Vienna
