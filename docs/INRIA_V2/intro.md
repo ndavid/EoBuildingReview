@@ -1,7 +1,9 @@
-# Existing data and issues 
+# Aerial Image Labeling review
 
 [The INRIA Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/>) has been proposed in 2017 by {cite:p}`maggiori2017dataset`.
 The dataset has been made by collecting diverses open-data sources of aerial imagery and building footpring and it's dedicted to building detection task as a **semantic segmentation** problem. 
+
+## Existing data and issues 
 
 This dataset is use in many research articles on building delineation as a benchmark to compare with other methodologies but some issues has been noted when using this dataset :
 

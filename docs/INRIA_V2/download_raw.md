@@ -22,11 +22,11 @@ If only the raw data sources link and metadata are needed see the following part
   - Vector data source access
   - direct url
 * - Austin
-  - **Site** Austin data portal : https://data.austintexas.gov/. **Dataset** : "Building Footprints Year 2013"
+  - **Site** [Austin data portal](https://data.austintexas.gov/). **Dataset** : "Building Footprints Year 2013"
   - [direct download via export api](https://data.austintexas.gov/api/geospatial/3qcc-8uhz?accessType=DOWNLOAD&method=export&format=Shapefile)
 * - Bellingham
-  - TODO
-  - TODO
+  - **Site** : [Bellingham GIS Data Center](https://cob.org/services/maps/gis). **Dataset** : Structures > Buildings
+  - [direct download url](https://data.cob.org/data/gis/SHP_Files/COB_struc_shps.zip)
 * - Bloomington
   - TODO
   - TODO
@@ -62,13 +62,19 @@ If only the raw data sources link and metadata are needed see the following part
 
 * - Towns / Area
   - Data source access
-  - data filter
+  - dates
+  - bounding box
+  - dataset info
 * - Austin
-  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "Building Footprints Year 2013"
-  - dataset : high_res_ortho; dates : ["2011-09-01", "2012-09-01"]; area : austin, texas;  ll : [30.2225,  -97.8013], ur : [30.2990,  -97.6544]
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2011-09-01", "2012-09-01"]
+  - Austin, Texas;  ll : [30.216, -97.790], ur : [30.2990, -97.6947] 
+  - id dataset : 201112_austin_tx_6in_sp_cnir;
 * - Bellingham
-  - TODO
-  - TODO
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2009-01-01", "2012-01-01"
+  - Bellingham, Whatcom county, Washington;  ll : [48.6976,  -122.518], ur : [48.7925,  -122.374]
+  - id dataset : 200905_seattle-tacoma-olympia_wa_0x3000m_utm10_clr;
 * - Bloomington
   - TODO
   - TODO
@@ -94,6 +100,8 @@ If only the raw data sources link and metadata are needed see the following part
   - TODO
   - TODO
 ```
+
+*ll** is for **l**ower **l**eft coordinates and ur for **u**pper **r**ight coordinates. 
 
 To download data from [EarthExplorer portal](https://earthexplorer.usgs.gov/) see the [detailled instructions](earth_explorer_download)
 
