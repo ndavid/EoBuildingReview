@@ -78,25 +78,41 @@ If only the raw data sources link and metadata are needed see the following part
 * - Bloomington
   - TODO
   - TODO
+  - TODO
+  - TODO
 * - Chicago
+  - TODO
+  - TODO
   - TODO
   - TODO
 * - Innsbruck
   - TODO
   - TODO
+  - TODO
+  - TODO
 * - Kitsap
+  - TODO
+  - TODO
   - TODO
   - TODO
 * - sfo (san fransisco)
   - TODO
   - TODO
+  - TODO
+  - TODO
 * - Tyrol-e (Tyrol east)
+  - TODO
+  - TODO
   - TODO
   - TODO
 * - Tyrol-w (Tyrol West)
   - TODO
   - TODO
+  - TODO
+  - TODO
 * - Vienna
+  - TODO
+  - TODO
   - TODO
   - TODO
 ```
