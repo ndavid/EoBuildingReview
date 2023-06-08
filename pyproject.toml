@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eobuilding_fair_inria"
+authors = [
+    {name = "Nicolas David", email = "nicolas.david@ign.fr"},
+]
+description = "Articles analysis, dataset quality analysis and reproductibility for buildings extraction from earth observations"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["earth observation", "remote sensing", "deep learning", "building", "footprint"]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+package-dir = {"" = "src"}
+dependencies = [
+    "requests",
+    "tqdm>=4.40.0",
+    'python_version>"3.8"'
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/ndavid/EoBuildingReview"
+"Docs: pages" = "https://ndavid.github.io/EoBuildingReview"
+"GitHub: issues" = "https://github.com/ndavid/EoBuildingReview/issues"
+"GitHub: repo" = "https://github.com/ndavid/EoBuildingReview"
+
+[project.optional-dependencies]
+dev = ["black==22.1", "pre-commit>=2.17"]
+doc = ["jupyter-book>=0.14"]
+
+[project.scripts]
+inria_download_footprints = "eobuilding_fair_inria.cli.download_footprints:main"
