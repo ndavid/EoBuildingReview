@@ -26,13 +26,20 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
 ]
-package-dir = {"" = "src"}
 dependencies = [
     "requests",
-    "tqdm>=4.40.0",
-    'python_version>"3.8"'
+    'tqdm >= 4.40.0'
 ]
 dynamic = ["version"]
+
+[tool.setuptools]
+include-package-data = true
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"]
+namespaces = true
 
 [project.urls]
 "Homepage" = "https://github.com/ndavid/EoBuildingReview"
