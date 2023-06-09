@@ -28,7 +28,8 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    'tqdm >= 4.40.0'
+    'tqdm >= 4.40.0',
+    "usgs"
 ]
 dynamic = ["version"]
 
@@ -53,3 +54,4 @@ doc = ["jupyter-book>=0.14"]
 
 [project.scripts]
 inria_download_footprints = "eobuilding_fair_inria.cli.download_footprints:main"
+inria_download_raw_img = "eobuilding_fair_inria.cli.download_raw_img:main"
