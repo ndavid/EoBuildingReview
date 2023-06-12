@@ -28,8 +28,8 @@ If only the raw data sources link and metadata are needed see the following part
   - **Site** : [Bellingham GIS Data Center](https://cob.org/services/maps/gis). **Dataset** : Structures > Buildings
   - [direct download url](https://data.cob.org/data/gis/SHP_Files/COB_struc_shps.zip)
 * - Bloomington
-  - TODO
-  - TODO
+  - **Site** : [Blomington open data portal](https://data.bloomington.in.gov). **Dataset** [Building Area](https://data.bloomington.in.gov/dataset/Building-Areas/vjpj-6g5i)
+  - [direct download via export api](https://data.bloomington.in.gov/api/geospatial/vjpj-6g5i?accessType=DOWNLOAD&method=export&format=Shapefile)
 * - Chicago
   - TODO
   - TODO
