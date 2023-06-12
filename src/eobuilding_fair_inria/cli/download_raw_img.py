@@ -58,24 +58,45 @@ def download_url(url: str, fname: Path, chunk_size=1024):
             bar.update(size)
 
 
+
+# bbox =  ll_lat , ll_long, ur_lat, ur_long,
+area_metadata_dict = {
+    "austin" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (30.216,  -97.790, 30.299,  -97.6947),
+        "dates_interval" : ("2011-01-01", "2013-01-01")
+    },
+    "bellingham" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (48.6976, -122.518, 48.7925, -122.374),
+        "dates_interval" : ("2009-01-01", "2010-01-01")
+    }
+}
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--out_dir', help='output copy dir')
-    parser.add_argument('--credential', help='path to earht explorer credential path')
+    parser.add_argument('--area', help='geographical area name')
+    parser.add_argument('--credential', help='path to earth explorer credential path')
     args = parser.parse_args()
 
     out_root_dir = Path(args.out_dir)
-    # 
-    area = "austin"
-    if area == "austin" :
-        out_raw_img = out_root_dir/"austin"/"IMG_RAW"
-        raw_source = "earth_explorer"
-        img_dataset = "high_res_ortho"
-        # ll_lat , ll_long, ur_lat, ur_long
-        bbox_wgs84 =  (30.216,  -97.790, 30.299,  -97.6947)
-        dates_interval = ("2011-01-01", "2013-01-01")
-    else :
+    # get area meta data
+    area = args.area.lower()
+    area_availables = list(area_metadata_dict.keys())
+    area_availables.sort()
+    if not area in area_availables :
+        print(f"area should be a name in available area list : {area_availables}")
         return
+    
+    out_raw_img = out_root_dir/area/"IMG_RAW"
+    area_meta = area_metadata_dict[area]
+    raw_source = area_meta["raw_source"]
+    img_dataset = area_meta["dataset"]
+    bbox_wgs84 =  area_meta["bbox_wgs84"]
+    dates_interval = area_meta["dates_interval"]    
 
     out_raw_img.mkdir(parents=True, exist_ok=True)
 
