@@ -37,8 +37,9 @@ If only the raw data sources link and metadata are needed see the following part
   - TODO
   - TODO
 * - Kitsap
-  - TODO
-  - TODO
+  - **Site** : [Kitspa county portal open data portal](https://www.kitsapgov.com/dis/Pages/resources.aspx). **Dataset** [Parcel Base Map Layers/
+Building Footprints](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/atsinfo/building.zip)
+  - [direct download url](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/atsinfo/building.zip)
 * - sfo (san fransisco)
   - TODO
   - TODO
@@ -91,10 +92,10 @@ If only the raw data sources link and metadata are needed see the following part
   - TODO
   - TODO
 * - Kitsap
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2019-01-01", "2010-01-01"
+  - Port Orchard, kitsap county, Washington;  ll : [47.4566,  -122.7082], ur : [47.5788, -122.5880]
+  - id dataset : 200905_seattle-tacoma-olympia_wa_0x3000m_utm10_clr;
 * - sfo (san fransisco)
   - TODO
   - TODO
