@@ -31,8 +31,8 @@ If only the raw data sources link and metadata are needed see the following part
   - **Site** : [Blomington open data portal](https://data.bloomington.in.gov). **Dataset** [Building Area](https://data.bloomington.in.gov/dataset/Building-Areas/vjpj-6g5i)
   - [direct download via export api](https://data.bloomington.in.gov/api/geospatial/vjpj-6g5i?accessType=DOWNLOAD&method=export&format=Shapefile)
 * - Chicago
-  - TODO
-  - TODO
+  - **Site** : [Chicago open data portal](https://data.bloomington.in.gov). **Dataset** [Building Footprints (deprecated January 2013)](https://data.cityofchicago.org/Buildings/Building-Footprints-deprecated-January-2013-/w2v3-isjw)
+  - [direct download via export api](https://data.cityofchicago.org/download/w2v3-isjw/application%2Fzip)
 * - Innsbruck
   - TODO
   - TODO
@@ -76,15 +76,15 @@ If only the raw data sources link and metadata are needed see the following part
   - Bellingham, Whatcom county, Washington;  ll : [48.6976,  -122.518], ur : [48.7925,  -122.374]
   - id dataset : 200905_seattle-tacoma-olympia_wa_0x3000m_utm10_clr;
 * - Bloomington
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2010-01-01", "2012-01-01"
+  - Bloomington, Monroe county, Indiana;  ll : [39.122,  -86.607], ur : [39.2041,  -86.4673]
+  - id dataset : 201103_monroe_county_in_1ft_sp_cnir;
 * - Chicago
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2011-01-01", "2013-01-01"
+  - Chicago, Cook county, Illinois;  ll : [41.824,  -87.7298], ur : [41.9059,  -87.6200]
+  - id dataset : 201203_cook_county_il_6in_sp_cnir;
 * - Innsbruck
   - TODO
   - TODO
