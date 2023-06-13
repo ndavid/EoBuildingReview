@@ -41,8 +41,8 @@ If only the raw data sources link and metadata are needed see the following part
 Building Footprints](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/atsinfo/building.zip)
   - [direct download url](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/atsinfo/building.zip)
 * - sfo (san fransisco)
-  - TODO
-  - TODO
+  - **Site** : [Princeton library](https://maps.princeton.edu/catalog). **Dataset** [San Francisco (Building Footprints, 2011)](https://maps.princeton.edu/catalog/mit-dqtbhcmu3fmjkp)
+  - [direct download url](https://geodata.mit.edu/mit_download/mit-dqtbhcmu3fmjk)
 * - Tyrol-e (Tyrol east)
   - TODO
   - TODO
@@ -93,14 +93,14 @@ Building Footprints](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/
   - TODO
 * - Kitsap
   - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
-  - "2019-01-01", "2010-01-01"
+  - "2009-01-01", "2010-01-01"
   - Port Orchard, kitsap county, Washington;  ll : [47.4566,  -122.7082], ur : [47.5788, -122.5880]
   - id dataset : 200905_seattle-tacoma-olympia_wa_0x3000m_utm10_clr;
-* - sfo (san fransisco)
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+* - sfo (san francisco)
+  - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Dataset** : "high_res_ortho"
+  - "2010-01-01", "2012-01-01"
+  - san francisco, san francisco county, California;  ll : [37.7161,  -122.4952], ur : [37.7979, -122.3921]
+  - id dataset : 201104_san_francisco_ca_0x3000m_utm_clr;
 * - Tyrol-e (Tyrol east)
   - TODO
   - TODO
