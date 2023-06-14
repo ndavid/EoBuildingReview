@@ -38,9 +38,70 @@ area_metadata_dict = {
         "out_name" : "Bellingham_Building_Footprints.zip",
         "unzip" : True,
         "file_type" : "SHP"
+    },
+    "bloomington" : {
+        "source_type" : "url_download",
+        "url" : "https://data.bloomington.in.gov/api/geospatial/vjpj-6g5i?accessType=DOWNLOAD&method=export&format=Shapefile",
+        "in_prefix" : "geo_export_",
+        "out_name" : "Bloomington_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "chicago" : {
+        "source_type" : "url_download",
+        "url" : "https://data.cityofchicago.org/api/geospatial/hz9b-7nh8?method=export&format=Shapefile",
+        "in_prefix" : "Buildings",
+        "out_name" : "Chicago_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "kitsap" : {
+        "source_type" : "url_download",
+        "url" : "https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/library/parcel.zip",
+        "in_prefix" : "footprints",
+        "out_name" : "Kitsap_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "sfo" : {
+        "source_type" : "url_download",
+        "url" : "https://geodata.mit.edu/mit_download/mit-dqtbhcmu3fmjk",
+        "in_prefix" : "",
+        "out_name" : "SanFrancisco_Building_Footprints_2011.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "innsbruck" : {
+        "source_type" : "url_download",
+        "url" : "https://opendata.arcgis.com/api/v3/datasets/9fa2f10f991c46739d51e77dbbd39534_0/downloads/data?format=shp&spatialRefId=31254&where=1%3D1",
+        "in_prefix" : "Gebaeude",
+        "out_name" : "Tyrol_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "tyrol-e" : {
+        "source_type" : "url_download",
+        "url" : "https://opendata.arcgis.com/api/v3/datasets/9fa2f10f991c46739d51e77dbbd39534_0/downloads/data?format=shp&spatialRefId=31254&where=1%3D1",
+        "in_prefix" : "Gebaeude",
+        "out_name" : "Tyrol_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
+    },
+    "tyrol_w" : {
+        "source_type" : "url_download",
+        "url" : "https://opendata.arcgis.com/api/v3/datasets/9fa2f10f991c46739d51e77dbbd39534_0/downloads/data?format=shp&spatialRefId=31254&where=1%3D1",
+        "in_prefix" : "Gebaeude",
+        "out_name" : "Tyrol_Building_Footprints.zip",
+        "unzip" : True,
+        "file_type" : "SHP"
     }
 } 
 
+# https://data.wien.gv.at/daten/geo?service=WFS&version=1.0.0&request=GetFeature&typeName=ogdwien:FMZKGEBOGD&outputFormat=shape-zip&SRS=EPSG:31256&BBOX=2748,341794,4516,343209
+# https://data.wien.gv.at/daten/geo?service=WFS&version=1.0.0&request=GetFeature&typeName=ogdwien:FMZKGEBOGD&outputFormat=shape-zip&SRS=EPSG:31256&BBOX=-2237,335400,6828,344450
+
+# https://data.world/city-of-bloomington/522d7f69-8951-46f6-8cb4-30cad69878ca
+# https://data.sfgov.org/Geographic-Locations-and-Boundaries/Building-Footprints/ynuv-fyni
 
 def main():
     parser = argparse.ArgumentParser()
@@ -84,6 +145,8 @@ def main():
     
     # rename file
     renames_files = []
+    out_prefix = out_path.stem
+    shp_suffix = [".shp", ".shx", ".prj", ".dbf", ".shx", ".sbn", ".sbx", ".cst", ".xml"]
     if "in_subdir" in area_meta:
         out_init_dir = out_raw_footprints/area_meta["in_subdir"]
     else:
@@ -92,10 +155,10 @@ def main():
         renames_files = [ child for child in out_init_dir.iterdir() 
                          if child.is_file() 
                          and area_meta["in_prefix"] in child.stem
-                         and child.suffix in [".shp", ".shx", ".prj", ".dbf", ".shx", ".sbn"]]
+                         and child.suffix in shp_suffix]
     for s_file in renames_files :
         ext = s_file.suffix
-        new_name = out_raw_footprints/f"{out_name}{ext}"
+        new_name = out_raw_footprints/f"{out_prefix}{ext}"
         s_file.rename(new_name)
 
     # remove extract dirs if needed

@@ -31,8 +31,8 @@ If only the raw data sources link and metadata are needed see the following part
   - **Site** : [Blomington open data portal](https://data.bloomington.in.gov). **Dataset** [Building Area](https://data.bloomington.in.gov/dataset/Building-Areas/vjpj-6g5i)
   - [direct download via export api](https://data.bloomington.in.gov/api/geospatial/vjpj-6g5i?accessType=DOWNLOAD&method=export&format=Shapefile)
 * - Chicago
-  - **Site** : [Chicago open data portal](https://data.bloomington.in.gov). **Dataset** [Building Footprints (deprecated January 2013)](https://data.cityofchicago.org/Buildings/Building-Footprints-deprecated-January-2013-/w2v3-isjw)
-  - [direct download via export api](https://data.cityofchicago.org/download/w2v3-isjw/application%2Fzip)
+  - **Site** : [Chicago open data portal](https://data.cityofchicago.org/). **Dataset** [Building Footprints Current](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8)
+  - [direct download via export api](https://data.cityofchicago.org/api/geospatial/hz9b-7nh8?method=export&format=Shapefile)
 * - Innsbruck
   - TODO
   - TODO
