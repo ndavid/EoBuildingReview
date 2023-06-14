@@ -22,6 +22,30 @@ area_metadata_dict = {
         "dataset" : "high_res_ortho",
         "bbox_wgs84" :  (48.6976, -122.518, 48.7925, -122.374),
         "dates_interval" : ("2009-01-01", "2010-01-01")
+    },
+    "bloomington" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (39.122,  -86.607, 39.2041,  -86.4673),
+        "dates_interval" : ("2010-01-01", "2012-01-01")
+    },
+    "chicago" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (41.824,  -87.7298, 41.9059,  -87.6200),
+        "dates_interval" : ("2011-01-01", "2013-01-01")
+    },
+    "kitsap" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" : (47.4566,  -122.7082, 47.5788, -122.5880),
+        "dates_interval" : ("2009-01-01", "2010-01-01")
+    },
+    "sfo" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (37.7161,  -122.4952, 37.7979, -122.3921),
+        "dates_interval" : ("2010-01-01", "2012-01-01")
     }
 }
 
