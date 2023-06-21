@@ -1,10 +1,11 @@
 import argparse
+from operator import truediv
 import shutil
 from pathlib import Path
 import requests
 import zipfile
 from tqdm import tqdm
-
+import time
 
 def download(url, fname):
     resp = requests.get(url, stream=True, allow_redirects=True)
@@ -102,6 +103,16 @@ area_metadata_dict = {
         "out_name" : "Vienna_Building_Footprints.zip",
         "unzip" : True,
         "file_type" : "SHP"
+    },
+    "vienna_all" : {
+        "source_type" : "wfs",
+        "url" : "https://data.wien.gv.at/daten/geo?service=WFS&version=1.0.0&request=GetFeature&typeName=ogdwien:FMZKGEBOGD&outputFormat=shape-zip&SRS=EPSG:31256",
+        "in_prefix" : "FMZKGEBOGDPolygon",
+        "bbox" : [-15000, 330000, 15000, 350000],
+        "step" : 5000,
+        "out_name" : "Vienna_Building_Footprints_all",
+        "unzip" : True,
+        "file_type" : "SHP"
     }
 } 
 
@@ -134,6 +145,10 @@ def main():
     out_raw_footprints.mkdir(parents=True, exist_ok=True)
 
     # download data
+    if  source_type not in ["url_download", "wfs"] :
+        print(f"source type {source_type} is not supported yet")
+        return
+
     if source_type == "url_download" :
         url = area_meta["url"]
         out_name =  area_meta["out_name"]
@@ -142,45 +157,77 @@ def main():
         # download(url, out_path)
         r = requests.get(url, allow_redirects=True)
         open(out_path, 'wb').write(r.content)
-    else :
-        print(f"source type {source_type} is not supported yet")
-        return
-     
-    # extract data if zip
-    if area_meta["unzip"] :
-        with zipfile.ZipFile(out_path,"r") as zip_ref:
-            zip_ref.extractall(out_raw_footprints)
+        download_paths = [out_path]
+        extract_dir = out_raw_footprints
     
-    # rename file
-    renames_files = []
-    out_prefix = out_path.stem
-    shp_suffix = [".shp", ".shx", ".prj", ".dbf", ".shx", ".sbn", ".sbx", ".cst", ".xml"]
-    if "in_subdir" in area_meta:
-        out_init_dir = out_raw_footprints/area_meta["in_subdir"]
-    else:
-        out_init_dir = out_raw_footprints
-    if area_meta["file_type"] == "SHP" :
-        renames_files = [ child for child in out_init_dir.iterdir() 
-                         if child.is_file() 
-                         and area_meta["in_prefix"] in child.stem
-                         and child.suffix in shp_suffix]
-    for s_file in renames_files :
-        ext = s_file.suffix
-        new_name = out_raw_footprints/f"{out_prefix}{ext}"
-        s_file.rename(new_name)
+    if source_type == "wfs" :
+        url = area_meta["url"]
+        out_name =  area_meta["out_name"]
+        out_dir_path= out_raw_footprints/out_name
+        out_dir_path.mkdir(parents=True, exist_ok=True)
 
-    # remove extract dirs if needed
-    if area_meta["unzip"] :
-        with zipfile.ZipFile(out_path,"r") as zip_ref:
-            relativepaths = [child for child in zipfile.Path(zip_ref).iterdir() if child.is_dir()]
-        if relativepaths :
-            for relativepath in relativepaths:
-                print(relativepath.name)
-                extract_root_dir = out_raw_footprints/relativepath.name
-                try:
-                    shutil.rmtree(extract_root_dir)
-                except OSError as o:
-                    print(f"Error, {o.strerror}: {extract_root_dir}")
+        xmin, ymin, xmax, ymax =  area_meta["bbox"]
+        step =  area_meta["step"]
+
+        download_paths = []
+        extract_dir = out_dir_path
+        for x in range(xmin, xmax, step) :
+            for y in  range(ymin, ymax, step) :
+                out_bbox_path = out_dir_path/f"{x}_{y}.zip"
+
+                wfs_query = f"{url}&BBOX={x},{y},{x+step},{y+step}"
+                print(wfs_query)
+                # download(url, out_path)
+                r = requests.get(wfs_query, allow_redirects=True)
+                open(out_bbox_path, 'wb').write(r.content)
+                download_paths.append(out_bbox_path)
+                time.sleep(10)
+
+
+    add_count_suffix = False
+    if len(download_paths) > 1 :
+        add_count_suffix = True
+
+    for i, download_path in enumerate(download_paths):
+
+        # extract data if zip
+        if area_meta["unzip"] :
+            with zipfile.ZipFile(download_path,"r") as zip_ref:
+                zip_ref.extractall(extract_dir)
+    
+        # rename file
+        renames_files = []
+        out_prefix = download_path.stem
+        if add_count_suffix:
+            out_prefix = f"{out_prefix}_{i:04d}"
+        shp_suffix = [".shp", ".shx", ".prj", ".dbf", ".shx", ".sbn", ".sbx", ".cst", ".xml"]
+        if "in_subdir" in area_meta:
+            out_init_dir = extract_dir/area_meta["in_subdir"]
+        else:
+            out_init_dir = extract_dir
+        if area_meta["file_type"] == "SHP" :
+            renames_files = [ child for child in out_init_dir.iterdir() 
+                            if child.is_file() 
+                            and area_meta["in_prefix"] in child.stem
+                            and child.suffix in shp_suffix]
+        for s_file in renames_files :
+            ext = s_file.suffix
+            new_name = extract_dir/f"{out_prefix}{ext}"
+            s_file.rename(new_name)
+
+        # remove extract dirs if needed
+        if area_meta["unzip"] :
+            with zipfile.ZipFile(download_path,"r") as zip_ref:
+                relativepaths = [child for child in zipfile.Path(zip_ref).iterdir() if child.is_dir()]
+            if relativepaths :
+                for relativepath in relativepaths:
+                    print(relativepath.name)
+                    extract_root_dir = extract_dir/relativepath.name
+                    try:
+                        shutil.rmtree(extract_root_dir)
+                    except OSError as o:
+                        print(f"Error, {o.strerror}: {extract_root_dir}")
+
                 
 if __name__ == "__main__":
     main()

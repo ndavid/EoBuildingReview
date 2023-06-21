@@ -61,10 +61,10 @@ Building Footprints](https://ftp.co.kitsap.wa.us/data/gis/datacd/arcview/layers/
 :header-rows: 1
 :name: raster-sources
 
-* - Towns / Area
+* - Area Name
   - Data source access
   - dates
-  - bounding box
+  - location / bounding box
 * - Austin
   - **Site** [EarthExplorer portal](https://earthexplorer.usgs.gov/). **Collection** : "high_res_ortho". **Dataset** : 201112_austin_tx_6in_sp_cnir
   - "2011-09-01", "2012-09-01"]
