@@ -1,0 +1,19 @@
+{
+    "dataset" :  "Inria Aerial Image Labeling",
+    "shortname" : "INRIA",
+    "description" :  "The INRIA Aerial Image Labeling dataset is comprised of 360 RGB tiles of 5000×5000px with a spatial resolution of 30cm/px on 10 cities across the globe. Half of the cities are used for training and are associated to a public ground truth of building footprints. The rest of the dataset is used only for evaluation with a hidden ground truth. The dataset was constructed by combining public domain imagery and public domain official building footprints",
+    "subdatasets"  : [
+        "INRIA_val",
+        "Austin",
+        "Chicago", 
+        "Kitsap". 
+        "West Tyrol",
+        "Vienna",
+        "Bellingham",
+        "Bloomington", 
+        "Innsbruck", 
+        "San Francisco", 
+        "East Tyrol"],
+    "dataset_links" : "https://project.inria.fr/aerialimagelabeling/",
+    "dataset_citations" : 'Emmanuel Maggiori, Yuliya Tarabalka, Guillaume Charpiat and Pierre Alliez. “Can Semantic Labeling Methods Generalize to Any City? The Inria Aerial Image Labeling Benchmark”. IEEE International Geoscience and Remote Sensing Symposium (IGARSS). 2017'
+}

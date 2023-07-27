@@ -1,0 +1,21 @@
+{
+    "title": "Can semantic labeling methods generalize to any city? The Inria aerial image labeling benchmark",
+    "author":[
+        {"name":  "Emmanuel Maggiori"},
+        {"name":  "Yuliya Tarabalka"},
+        {"name" : "Guillaume Charpiat"}, 
+        {"name":  "Pierre Alliez"}
+    ],
+    "type": "proceding",
+    "year":  2017,
+    "month" : 7,
+    "conference": {
+        "name": "IEEE International Symposium on Geoscience and Remote Sensing" 
+        "shortname" : "IGARSS"},
+    "link": [
+    {"url":"https://inria.hal.science/hal-01468452"}],
+    "eprinttype" : {"HAL"},
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/IGARSS.2017.8127684"}]
+}

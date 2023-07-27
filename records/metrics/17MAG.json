@@ -1,0 +1,110 @@
+{ 
+    "paper_title" :  "Can semantic labeling methods generalize to any city? The Inria aerial image labeling benchmark",
+    "paper_url" :  "https://inria.hal.science/hal-01468452",
+    "paper_date" :   03/2017,
+    "tables" :  [ { 
+        "title" : "Numerical eval. on small validation set",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Bellingham",
+                "Bloomington", 
+                "Innsbruck", 
+                "San Francisco", 
+                "East Tyrol" 
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "FCN",
+                    "model_fullname" : "FCN_INRIA",
+                    "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   17/11/2016,
+                    "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [44.83, 35.38, 36.50, 44.92, 43.69, 42.19],
+                        "Accuracy" : [94.48, 94.07, 92.97, 82.60, 95.14, 91.85] } },
+                {
+                    "model_name" :   "Skip",
+                    "model_fullname" : "Skip_INRIA",
+                    "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   17/11/2016,
+                    "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [52.91, 46.08, 58.12, 57.84, 59.03, 55.82],
+                        "Accuracy" : [95.14, 94.95, 95.16, 86.05, 96.40, 93.54] } },
+                {
+                    "model_name" :   "MLP",
+                    "model_fullname" : "MLP_INRIA",
+                    "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   17/11/2016,
+                    "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [56.11, 50.40, 61.03, 61.38, 62.51, 59.31],
+                        "Accuracy" : [95.37, 95.27, 95.37, 87.00, 96.61, 93.93] } },
+             ]
+        } },
+    {
+    "title" : "Numerical evaluation on test set",
+    "rows" :  {
+        "metrics" :  ["IoU", "Accuracy"],
+        "datasets" :  "Inria Aerial Image Labeling",
+        "subdataset" :  [  
+            "Austin",
+            "Chicago", 
+            "Kitsap". 
+            "West Tyrol",
+            "Vienna",
+            "Overall"],
+        "rows" :  [
+            {
+                "model_name" :   "FCN",
+                "model_fullname" : "FCN_INRIA",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   17/11/2016,
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [47.66, 53.62, 33.70, 46.86, 60.60, 53.82],
+                    "Accuracy" : [92.22, 88.59, 98.58, 95.83, 88.72, 92.79] } },
+            {
+                "model_name" :   "Skip",
+                "model_fullname" : "Skip_INRIA",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   17/11/2016,
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [57.87, 61.13, 46.43, 54.91, 70.51, 62.97],
+                    "Accuracy" : [93.85, 90.54, 98.84, 96.47, 91.48, 94.24] } },
+            {
+                "model_name" :   "MLP",
+                "model_fullname" : "MLP_INRIA",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   17/11/2016,
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [61.20, 61.30, 51.50, 57.95, 72.13, 64.67],
+                    "Accuracy" : [94.20, 90.43, 98.92, 96.66, 91.87, 94.42] } },
+            ]
+    } } 
+    ]
+}
+
+
+
+
+
+
+
+
