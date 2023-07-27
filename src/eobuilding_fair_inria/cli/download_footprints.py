@@ -4,6 +4,7 @@ import shutil
 from pathlib import Path
 import requests
 import zipfile
+from zipfile import BadZipfile
 from tqdm import tqdm
 import time
 
@@ -108,7 +109,7 @@ area_metadata_dict = {
         "source_type" : "wfs",
         "url" : "https://data.wien.gv.at/daten/geo?service=WFS&version=1.0.0&request=GetFeature&typeName=ogdwien:FMZKGEBOGD&outputFormat=shape-zip&SRS=EPSG:31256",
         "in_prefix" : "FMZKGEBOGDPolygon",
-        "bbox" : [-15000, 330000, 15000, 350000],
+        "bbox" : [-20000, 325000, 25000, 365000],
         "step" : 5000,
         "out_name" : "Vienna_Building_Footprints_all",
         "unzip" : True,
@@ -174,14 +175,18 @@ def main():
         for x in range(xmin, xmax, step) :
             for y in  range(ymin, ymax, step) :
                 out_bbox_path = out_dir_path/f"{x}_{y}.zip"
+                download_paths.append(out_bbox_path)
 
                 wfs_query = f"{url}&BBOX={x},{y},{x+step},{y+step}"
                 print(wfs_query)
                 # download(url, out_path)
-                r = requests.get(wfs_query, allow_redirects=True)
-                open(out_bbox_path, 'wb').write(r.content)
-                download_paths.append(out_bbox_path)
-                time.sleep(10)
+                if not out_bbox_path.exists():
+                    r = requests.get(wfs_query, allow_redirects=True)
+                    open(out_bbox_path, 'wb').write(r.content)
+                    time.sleep(10)
+                else:
+                    print(f"{out_bbox_path} already downloaded")
+                    time.sleep(2)
 
 
     add_count_suffix = False
@@ -192,9 +197,13 @@ def main():
 
         # extract data if zip
         if area_meta["unzip"] :
-            with zipfile.ZipFile(download_path,"r") as zip_ref:
-                zip_ref.extractall(extract_dir)
-    
+            try :
+                with zipfile.ZipFile(download_path,"r") as zip_ref:
+                    zip_ref.extractall(extract_dir)
+            except BadZipfile:
+                print(f"{download_path} is not a valid zip archive, skip and pass to next")
+                continue 
+                
         # rename file
         renames_files = []
         out_prefix = download_path.stem
