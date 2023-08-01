@@ -29,7 +29,10 @@ classifiers = [
 dependencies = [
     "requests",
     'tqdm >= 4.40.0',
-    "usgs"
+    "usgs",
+    "rasterio >= 1.3.8",
+    "shapely >= 2.0.0",
+    "fiona >= 1.9.4" 
 ]
 dynamic = ["version"]
 
@@ -55,3 +58,5 @@ doc = ["jupyter-book>=0.14"]
 [project.scripts]
 inria_download_footprints = "eobuilding_fair_inria.cli.download_footprints:main"
 inria_download_raw_img = "eobuilding_fair_inria.cli.download_raw_img:main"
+inria_init_bounds = "eobuilding_fair_inria.cli.footprints_from_img:main"
+inria_create_tiles = "eobuilding_fair_inria.cli.tile_footprints:main"
