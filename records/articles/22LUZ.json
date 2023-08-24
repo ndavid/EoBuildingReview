@@ -1,0 +1,22 @@
+{
+    "title": "Transformers For Recognition In Overhead Imagery: A Reality Check",
+    "author":[
+        {"name":  "Francesco Luzi"},
+        {"name":  "Aneesh Gupta"},
+        {"name" : "Leslie Collins"}, 
+        {"name":  "Kyle Bradbury"},
+        {"name":  "Jordan Malof"}
+    ],
+    "type": "proceding",
+    "year":  2022,
+    "month" : 10,
+    "conference": {
+        "name": "IEEE/CVF Winter Conference on Applications of Computer Visiong", 
+        "shortname" : "WACV"},
+    "link": [
+        {"url":"https://arxiv.org/abs/2210.12599"}],
+    "eprinttype" : "arixv",
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.48550/arXiv.2210.12599"}]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+    "author":[
+        {"name":  "Yue Qiu"},
+        {"name":  "Fang Wu"},
+        {"name" : "Haizhong Qian"}, 
+        {"name":  "Renjian Zhai"},
+        {"name":  "Xianyong Gong"},
+        {"name":  "Jichong Yin"},
+        {"name" : "Chengyi Liu"}, 
+        {"name":  "Andong Wang"}
+    ],
+    "type": "article",
+    "year":  2022,
+    "month" : 12,
+    "journal": {
+        "name": "Remote Sensing", 
+        "shortname" : "remote sensing"},
+    "link": [
+        {"url":"https://www.mdpi.com/2072-4292/15/1/95"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.3390/rs15010095"}]
+}

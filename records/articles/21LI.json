@@ -1,0 +1,21 @@
+{
+    "title": "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+    "author":[
+        {"name":  "Qingyu Li"},
+        {"name":  "Lichao Mou"},
+        {"name" : "Yuansheng Hua"}, 
+        {"name":  "Yilei Shi"},
+        {"name" : "Xiao Xiang Zhu"}
+    ],
+    "type": "article",
+    "year":  2021,
+    "month" : 8,
+    "conference": {
+        "name": "IEEE Transactions on Geoscience and Remote Sensing", 
+        "shortname" : "TGRS"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/9538384"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/TGRS.2021.3109844"}]
+}

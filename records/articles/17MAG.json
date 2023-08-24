@@ -10,11 +10,11 @@
     "year":  2017,
     "month" : 7,
     "conference": {
-        "name": "IEEE International Symposium on Geoscience and Remote Sensing" 
+        "name": "IEEE International Symposium on Geoscience and Remote Sensing", 
         "shortname" : "IGARSS"},
     "link": [
-    {"url":"https://inria.hal.science/hal-01468452"}],
-    "eprinttype" : {"HAL"},
+        {"url":"https://inria.hal.science/hal-01468452"}],
+    "eprinttype" : "HAL",
     "identifier": [
         {"type":"doi",
          "id":"10.1109/IGARSS.2017.8127684"}]

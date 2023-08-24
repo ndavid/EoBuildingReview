@@ -1,0 +1,20 @@
+{
+    "title": "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+    "author":[
+        {"name":  "Bodhiswatta Chatterjee"},
+        {"name":  "Charalambos Poullis"}
+    ],
+    "type": "article",
+    "year":  2019,
+    "month" : 12,
+    "journal": {
+        "name": "Computer Vision and Image Understanding", 
+        "shortname" : "CVIU"},
+    "link": [
+        {"url":"https://arxiv.org/pdf/1912.09216.pdf"},
+        {"url":"https://www.sciencedirect.com/science/article/pii/S1077314221000953"}],
+    "eprinttype" : "HAL",
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.1016/j.cviu.2021.103251"}]
+}

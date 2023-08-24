@@ -1,0 +1,28 @@
+{ 
+    "paper_title" :  "Fully Convolutional Networks for Multisource Building Extraction From an Open Aerial and Satellite Imagery Data Set",
+    "paper_url" :  "https://ieeexplore.ieee.org/document/8444434",
+    "paper_date" :   "01/2019",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["mean IoU", "Recall", "Precision"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  "Validation",
+            "rows" :  [
+                {
+                    "model_name" :   "UNet",
+                    "model_fullname" : "UNet",
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "Fully Convolutional Networks for Multisource Building Extraction From an Open Aerial and Satellite Imagery Data Set",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/8444434",
+                    "paper_date" :   "01/2019",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 71.4,
+                        "Recall" : 82.1,
+                        "Precision" : 84.6} }
+                ]
+        } } 
+    ]
+}

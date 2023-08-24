@@ -1,0 +1,20 @@
+{
+    "title": "Machine-learned Regularization and Polygonization of Building Segmentation Masks",
+    "author":[
+        {"name":  "Stefano Zorzi"},
+        {"name":  "Ksenia Bittner"},
+        {"name" : "Friedrich Fraundorfer"}
+    ],
+    "type": "proceding",
+    "year":  2021,
+    "month" : 1,
+    "conference": {
+        "name": "IEEE International Conference of Pattern Recognition", 
+        "shortname" : "ICPR"},
+    "link": [
+        {"url":"https://arxiv.org/abs/2007.12587"}],
+    "eprinttype" : "arxiv",
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.48550/arXiv.2007.12587"}]
+}

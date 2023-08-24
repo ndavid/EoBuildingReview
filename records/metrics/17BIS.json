@@ -1,0 +1,151 @@
+{ 
+    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+    "paper_date" :   "09/2017",
+    "tables" :  [ { 
+        "title" : "Table 1 : single loss vs multi-task loss",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Austin",
+                "Chicago", 
+                "Kitsap", 
+                "West Tyrol", 
+                "Vienna", 
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "MLP",
+                    "model_fullname" : "MLP_INRIA",
+                    "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   "17/11/2016",
+                    "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [61.20, 61.30, 51.50, 57.95, 72.13, 64.67],
+                        "Accuracy" : [94.20, 90.43, 98.92, 96.66, 91.87, 94.42] } },
+                {
+                    "model_name" :   "SegNet",
+                    "model_fullname" : "SegNet Single-Loss, NLL-Loss for segmentation classes",
+                    "loss" : "NLL",
+                    "task" : "segmentation classes",
+                    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                    "paper_date" :   "09/2017",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [78.41, 52.83, 68.06, 65.68, 72.90, 70.14],
+                        "Accuracy" : [95.52, 98.65, 97.28, 91.36, 96.04, 95.17] } },
+                {
+                    "model_name" :   "SegNet",
+                    "model_fullname" : "SegNet Single-Loss, NLL-Loss for distance classes",
+                    "loss" : "NLL",
+                    "task" : "distance classes",
+                    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                    "paper_date" :   "09/2017",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [76.49, 66.77, 72.69, 66.35, 76.25, 72.57],
+                        "Accuracy" : [93.12, 99.24, 97.79, 91.58, 96.55, 95.66] } },
+                {
+                    "model_name" :   "SegNet",
+                    "model_fullname" : "SegNet Multitask-Loss, equally weighted",
+                    "loss" : ["NLL", "NLL"],
+                    "task" : ["segmentation classes", "distance classes"],
+                    "weights" : "equally",
+                    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                    "paper_date" :   "09/2017",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [76.22, 66.64, 71.70, 67.03, 76.68, 72.65],
+                        "Accuracy" : [93.03, 99.24, 97.71, 91.66, 96.60, 95.65] } },
+                {
+                    "model_name" :   "SegNet Multitask-Loss",
+                    "model_fullname" : "SegNet Multitask-Loss, uncertainty weighted",
+                    "loss" : ["NLL", "NLL"],
+                    "task" : ["segmentation classes", "distance classes"],
+                    "weights" : "uncertainty",
+                    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                    "paper_date" :   "09/2017",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [76.76, 67.06, 73.30, 66.91, 76.68, 73.00],
+                        "Accuracy" : [93.21, 99.25, 97.84, 91.71, 96.61, 95.73] } }
+        ]
+        } },
+    {
+    "title" : "Numerical evaluation on val set",
+    "rows" :  {
+        "metrics" :  ["mean IoU", "Accuracy"],
+        "datasets" :  "Inria Aerial Image Labeling",
+        "subdataset" :  "Validation",
+        "rows" :  [
+            {
+                "model_name" :   "FCN",
+                "model_fullname" : "FCN_INRIA",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   "17/11/2016",
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : 53.82,
+                    "Accuracy" : 92.79 } },
+            {
+                "model_name" :   "MLP",
+                "model_fullname" : "MLP_INRIA",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   "17/11/2016",
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : 64.67,
+                    "Accuracy" : 94.42 } },
+            {
+                "model_name" :   "FCN VGG16",
+                "model_fullname" : "FCN_INRIA VGG16",
+                "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                "paper_date" :   "09/2017",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : 66.21 ,
+                    "Accuracy" : 94.54} },
+            {
+                "model_name" :   "MLP VGG16",
+                "model_fullname" : "MLP_INRIA VGG16",
+                "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                "paper_date" :   "09/2017",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : 68.17,
+                    "Accuracy" : 94.95 } },
+            {
+                "model_name" :   "SegNet VGG16",
+                "model_fullname" : "SegNet VGG16",
+                "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                "paper_date" :   "09/2017",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" :70.14,
+                    "Accuracy" : 95.17 } }
+            ]
+    } } 
+    ]
+}
+

@@ -1,0 +1,23 @@
+{
+    "title": "CGSANet: A Contour-Guided and Local Structure-Aware Encoder–Decoder Network for Accurate Building Extraction From Very High-Resolution Remote Sensing Imagery",
+    "author":[
+        {"name":  "Shanxiong Chen"},
+        {"name":  "Wenzhong Shi"},
+        {"name" : "Mingting Zhou"}, 
+        {"name":  "Min Zhang"},
+        {"name":  "Zhaoxin Xuan"}
+    ],
+    "type": "article",
+    "year":  2021,
+    "month" : 12,
+    "journal": {
+        "name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing", 
+        "shortname" : "JSTARS"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/9664368"},
+        {"url" : "https://www.researchgate.net/publication/357391544_CGSANet_A_Contour-Guided_and_Local_Structure-Aware_Encoder-Decoder_Network_for_Accurate_Building_Extraction_From_Very_High-Resolution_Remote_Sensing_Imagery"}],
+    "eprinttype" : "researchgate",    
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/JSTARS.2021.3139017"}]
+}

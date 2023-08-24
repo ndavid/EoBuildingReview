@@ -1,0 +1,18 @@
+{
+    "title": "A Residual-Inception U-Net (RIU-Net) Approach and Comparisons with U-Shaped CNN and Transformer Models for Building Segmentation from High-Resolution Satellite Images",
+    "author":[
+        {"name":  "Batuhan Sariturk"},
+        {"name":  "Dursun Zafer Seker"}
+    ],
+    "type": "article",
+    "year":  2022,
+    "month" : 10,
+    "journal": {
+        "name": "Sensors MDPI", 
+        "shortname" : "Sensors"},
+    "link": [
+        {"url":"https://www.mdpi.com/1424-8220/22/19/7624"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.3390/s22197624"}]
+}

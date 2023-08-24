@@ -1,0 +1,27 @@
+{
+    "title": "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+    "author":[
+        {"name": "Bohao Huang"},
+        {"name": "KangKang Lu"},
+        {"name": "Nicolas Audebert"}, 
+        {"name": "Andrew Khalel"},
+        {"name": "Yuliya Tarabalka"},
+        {"name": "Jordan Malof"},
+        {"name": "Alexandre Boulch"},
+        {"name": "Bertrand Le-Saux"},
+        {"name": "Leslie Collins"},
+        {"name": "Kyle Bradbury"}      
+    ],
+    "type": "proceding",
+    "year":  2018,
+    "month" : 7,
+    "conference": {
+        "name": "IEEE International Symposium on Geoscience and Remote Sensing", 
+        "shortname" : "IGARSS"},
+    "link": [
+        {"url":"https://inria.hal.science/hal-01767807"}],
+    "eprinttype" : "HAL",
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/IGARSS.2018.8518525 "}]
+}

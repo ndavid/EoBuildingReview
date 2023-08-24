@@ -1,0 +1,122 @@
+{ 
+    "paper_title" :  "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+    "paper_url" :  "https://arxiv.org/pdf/1912.09216.pdf",
+    "paper_date" :   "12/2019",
+    "tables" :  [ { 
+        "title" : "Numerical evaluation on val set",
+        "rows" :  {
+            "metrics" :  ["mean IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  "Validation",
+            "rows" :  [
+                {
+                    "model_name" :   "UNet",
+                    "model_fullname" : "UNet",
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+                    "paper_url" :  "https://arxiv.org/pdf/1912.09216.pdf",
+                    "paper_date" :   "12/2019",
+                    "code_links" :  ["https://github.com/Bodhiswatta/ICTNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 70.86,
+                        "Accuracy" : 95.51 } },
+                {
+                    "model_name" :   "Tiramisu-103",
+                    "model_fullname" : "Tiramisu-103",
+                    "model_paper" : "The one hundred layers tiramisu: Fully convolutional densenets for semantic segmentation",
+                    "paper_title" :  "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+                    "paper_url" :  "https://arxiv.org/pdf/1912.09216.pdf",
+                    "paper_date" :   "12/2019",
+                    "code_links" :  ["https://github.com/Bodhiswatta/ICTNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 73.91,
+                        "Accuracy" :  95.71} },
+                {
+                    "model_name" :   "ICT-Net",
+                    "model_fullname" : "ICT-Net",
+                    "paper_title" :  "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+                    "paper_url" :  "https://arxiv.org/pdf/1912.09216.pdf",
+                    "paper_date" :   "12/2019",
+                    "code_links" :  ["https://github.com/Bodhiswatta/ICTNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 75.5,
+                        "Accuracy" :  96.05} }
+                ]
+        } } ,
+        {
+            "title" : "Numerical evaluation on test set",
+            "rows" :  {
+                "metrics" :  ["mean IoU", "Accuracy"],
+                "datasets" :  "Inria Aerial Image Labeling",
+                "subdataset" :  "Test",
+                "rows" :  [
+                    {
+                        "model_name" :   "ICT-Net",
+                        "model_fullname" : "ICT-Net",
+                        "paper_title" :  "Semantic Segmentation from Remote Sensor Data and the Exploitation of Latent Learning for Classification of Auxiliary Tasks",
+                        "paper_url" :  "https://arxiv.org/pdf/1912.09216.pdf",
+                        "paper_date" :   "12/2019",
+                        "code_links" :  ["https://github.com/Bodhiswatta/ICTNet"],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "IoU" : 80.32,
+                            "Accuracy" : 97.14 } },
+                    {
+                        "model_name" :   "UNet AMLL",
+                        "model_fullname" : "U-net with novel training/test strategy AMLL",
+                        "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                        "paper_url" :  "https://inria.hal.science/hal-01767807",
+                        "paper_date" :   "07/2018",
+                        "code_links" :  [],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "IoU" :  72.55,
+                            "Accuracy" :  95.91 } },
+                    {
+                        "model_name" :   "Dual Unet NUS",
+                        "model_fullname" : "Dual-resolution U-net (NUS)",
+                        "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                        "paper_url" :  "https://inria.hal.science/hal-01767807",
+                        "paper_date" :   "07/2018",
+                        "code_links" :  [],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "IoU" :  72.45,
+                            "Accuracy" : 95.90 } },
+                    {
+                        "model_name" :   "SegNet SDT ONERA",
+                        "model_fullname" : "Segent Signed distance transform regression",
+                        "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                        "paper_url" :  "https://inria.hal.science/hal-01767807",
+                        "paper_date" :   "07/2018",
+                        "code_links" :  [],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "IoU" : 71.02,
+                            "Accuracy" :  95.63 } },
+                    {
+                        "model_name" :   "Stack UNet Raisa",
+                        "model_fullname" : "Stacked U-Nets (Raisa Energy)",
+                        "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                        "paper_url" :  "https://inria.hal.science/hal-01767807",
+                        "paper_date" :   "07/2018",
+                        "code_links" :  [],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "IoU" :  69.57,
+                            "Accuracy" : 95.30 } }
+                 ]
+            } } 
+    ]
+}
+
+
+
+
+
+
+
+

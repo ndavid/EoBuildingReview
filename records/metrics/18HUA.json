@@ -1,0 +1,76 @@
+{ 
+    "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+    "paper_url" :  "https://inria.hal.science/hal-01767807",
+    "paper_date" :   "07/2018",
+    "tables" :  [ { 
+        "title" : "Numerical evaluation on test set",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Bellingham",
+                "Bloomington", 
+                "Innsbruck", 
+                "San Francisco", 
+                "East Tyrol", 
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "MLP",
+                    "model_fullname" : "MLP_INRIA",
+                    "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   "17/11/2016",
+                    "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [56.11, 50.40, 61.03, 61.38, 62.51, 59.31],
+                        "Accuracy" : [95.37, 95.27, 95.37, 87.00, 96.61, 93.93] } },
+                {
+                    "model_name" :   "UNet AMLL",
+                    "model_fullname" : "U-net with novel training/test strategy AMLL",
+                    "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                    "paper_url" :  "https://inria.hal.science/hal-01767807",
+                    "paper_date" :   "07/2018",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [67.14, 65.43, 72.27, 75.72, 74.67, 72.55],
+                        "Accuracy" : [96.64, 96.73, 96.66, 91.80, 97.70, 95.91] } },
+                {
+                    "model_name" :   "Dual Unet NUS",
+                    "model_fullname" : "Dual-resolution U-net (NUS)",
+                    "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                    "paper_url" :  "https://inria.hal.science/hal-01767807",
+                    "paper_date" :   "07/2018",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [70.74, 66.06, 73.17, 73.57, 76.06, 72.45],
+                        "Accuracy" : [97.00, 96.74, 96.75, 91.19, 97.81, 95.90] } },
+                {
+                    "model_name" :   "SegNet SDT ONERA",
+                    "model_fullname" : "Segent Signed distance transform regression",
+                    "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                    "paper_url" :  "https://inria.hal.science/hal-01767807",
+                    "paper_date" :   "07/2018",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [68.92, 68.12, 71.87, 71.17, 74.75, 71.02],
+                        "Accuracy" : [96.94, 97.00, 96.72, 89.74, 97.78, 95.63] } },
+                {
+                    "model_name" :   "Stack UNet Raisa",
+                    "model_fullname" : "Stacked U-Nets (Raisa Energy)",
+                    "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                    "paper_url" :  "https://inria.hal.science/hal-01767807",
+                    "paper_date" :   "07/2018",
+                    "code_links" :  [],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [68.73, 60.83, 70.07, 70.64, 74.76, 69.57],
+                        "Accuracy" : [96.79, 96.23, 96.31, 89.52, 97.64, 95.30] } }
+             ]
+        } }
+    ]
+}

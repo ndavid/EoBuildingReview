@@ -1,0 +1,18 @@
+{
+    "title": "Boundary-Assisted Learning for Building Extraction from Optical Remote Sensing Imagery",
+    "author":[
+        {"name":  "Sheng He"},
+        {"name":  "Wanshou Jiang"}
+    ],
+    "type": "article",
+    "year":  2021,
+    "month" : 2,
+    "journal": {
+        "name": "Remote Sensing", 
+        "shortname" : "remote sensing"},
+    "link": [
+        {"url":"https://www.mdpi.com/2072-4292/13/4/760"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.3390/rs13040760"}]
+}

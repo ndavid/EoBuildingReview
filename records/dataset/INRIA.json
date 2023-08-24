@@ -6,7 +6,7 @@
         "INRIA_val",
         "Austin",
         "Chicago", 
-        "Kitsap". 
+        "Kitsap", 
         "West Tyrol",
         "Vienna",
         "Bellingham",
@@ -15,5 +15,5 @@
         "San Francisco", 
         "East Tyrol"],
     "dataset_links" : "https://project.inria.fr/aerialimagelabeling/",
-    "dataset_citations" : 'Emmanuel Maggiori, Yuliya Tarabalka, Guillaume Charpiat and Pierre Alliez. “Can Semantic Labeling Methods Generalize to Any City? The Inria Aerial Image Labeling Benchmark”. IEEE International Geoscience and Remote Sensing Symposium (IGARSS). 2017'
+    "dataset_citations" : "Emmanuel Maggiori, Yuliya Tarabalka, Guillaume Charpiat and Pierre Alliez. 'Can Semantic Labeling Methods Generalize to Any City? The Inria Aerial Image Labeling Benchmark'. IEEE International Geoscience and Remote Sensing Symposium (IGARSS). 2017"
 }

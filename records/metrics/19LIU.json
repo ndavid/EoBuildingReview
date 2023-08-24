@@ -1,0 +1,124 @@
+{ 
+    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+    "paper_date" :   "04/2019",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["Precision", "Recall", "F1", "IoU"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" :   "MBI",
+                    "model_fullname" : "Morphological building/shadow index" ,
+                    "model_paper" : "Morphological building/shadow index for building extraction from high-resolution imagery over urban areas",
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 54.68,
+                        "Recall" : 50.72 ,
+                        "F1" : 52.63,
+                        "IoU" : 35.71} },
+                {
+                    "model_name" :   "SegNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 79.63 ,
+                        "Recall" : 75.35,
+                        "F1" : 77.43,
+                        "IoU" : 63.17} },
+                {
+                    "model_name" : "UNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 83.14 ,
+                        "Recall" : 81.13,
+                        "F1" : 82.12,
+                        "IoU" : 69.67} },
+                {
+                    "model_name" : "RefineNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Refinenet: Multi-path refinement networks for high-resolution semantic segmentation",
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 85.36 ,
+                        "Recall" : 80.26,
+                        "F1" : 82.73,
+                        "IoU" : 70.55} },
+                {
+                    "model_name" : "Deeplabv3+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 84.93 ,
+                        "Recall" : 81.32,
+                        "F1" : 83.09,
+                        "IoU" : 71.07} },
+                {
+                    "model_name" : "SRI-Net α1",
+                    "model_fullname" : "SRI with ResNet-101 encoder" ,
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 84.18 ,
+                        "Recall" : 81.39,
+                        "F1" : 82.76,
+                        "IoU" : 70.59} }, 
+                {
+                    "model_name" : "SRI-Net α2",
+                    "model_fullname" : "SRI with ASPP module" ,
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 84.44 ,
+                        "Recall" : 81.86,
+                        "F1" : 83.13,
+                        "IoU" : 71.13} }, 
+                {
+                    "model_name" : "SRI-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/7/830",
+                    "paper_date" :   "04/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Precision" : 85.77 ,
+                        "Recall" : 81.46,
+                        "F1" : 83.56,
+                        "IoU" : 71.76} }   
+             ]
+        } }
+    ]
+}

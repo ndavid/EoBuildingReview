@@ -1,0 +1,149 @@
+{ 
+    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+    "paper_date" :   "10/2022",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["window size", "IoU", "Param (M)"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "SwinUnet 2",
+                    "model_fullname" : "",
+                    "model_type" : "SwinUnet",
+                    "model_paper" : "Swin-unet: Unet-like pure transformer for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "window size" : 2, 
+                        "IoU" : 76.90, 
+                        "Param (M)": 102.62 } },
+                {
+                    "model_name" : "SwinUnet 4",
+                    "model_fullname" : "",
+                    "model_type" : "SwinUnet",
+                    "model_paper" : "Swin-unet: Unet-like pure transformer for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "window size" : 4, 
+                        "IoU" : 77.18, 
+                        "Param (M)": 102.64 } },
+                {
+                    "model_name" : "SwinUnet 8",
+                    "model_fullname" : "",
+                    "model_type" : "SwinUnet",
+                    "model_paper" : "Swin-unet: Unet-like pure transformer for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "window size" : 8, 
+                        "IoU" : 77.12, 
+                        "Param (M)": 102.73 } }
+                    ]
+        } }, {
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["transformer layers", "IoU", "Param (M)"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "Unet34",
+                    "model_fullname" : "Unet ResNet 34",
+                    "model_type" : "Unet",
+                    "model_paper" : "Ternausnetv2: Fully convolutional net-work for instance segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 0, 
+                        "IoU" : 76.58, 
+                        "Param (M)": 26.71 } },
+                {
+                    "model_name" : "Unet101",
+                    "model_fullname" : "Unet ResNet 101",
+                    "model_type" : "Unet",
+                    "model_paper" : "Ternausnetv2: Fully convolutional net-work for instance segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 0, 
+                        "IoU" : 78.41, 
+                        "Param (M)": 104.89 } },
+                {
+                    "model_name" : "TransUnet 0",
+                    "model_fullname" : "",
+                    "model_type" : "TransUnet",
+                    "model_paper" : "Transunet: Transformers make strong encoders for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 0, 
+                        "IoU" : 78.65, 
+                        "Param (M)": 20.86 } },
+                {
+                    "model_name" : "TransUnet 6",
+                    "model_fullname" : "",
+                    "model_type" : "TransUnet",
+                    "model_paper" : "Transunet: Transformers make strong encoders for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 6, 
+                        "IoU" : 80.02, 
+                        "Param (M)": 63.38 } },
+                {
+                    "model_name" : "TransUnet 8",
+                    "model_fullname" : "",
+                    "model_type" : "TransUnet",
+                    "model_paper" : "Transunet: Transformers make strong encoders for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 8, 
+                        "IoU" : 80.12, 
+                        "Param (M)": 77.56 } },
+                {
+                    "model_name" : "TransUnet 12",
+                    "model_fullname" : "",
+                    "model_type" : "TransUnet",
+                    "model_paper" : "Transunet: Transformers make strong encoders for medical image segmentation",
+                    "paper_title" :  "Transformers For Recognition In Overhead Imagery: A Reality Check",
+                    "paper_url" :  "https://arxiv.org/abs/2210.12599",
+                    "paper_date" :   "10/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "transformer layers" : 12, 
+                        "IoU" : 79.22, 
+                        "Param (M)": 105.91 } }
+             ]
+        } }
+    ]
+}

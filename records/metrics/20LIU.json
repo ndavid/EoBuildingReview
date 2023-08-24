@@ -1,0 +1,103 @@
+{ 
+    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+    "paper_url" :  "https://ieeexplore.ieee.org/document/9165718",
+    "paper_date" :   "09/2020",
+    "tables" :  [ { 
+        "title" : "Quantitative comparison with the state-of-the-art models on the INRIA dataset",
+        "rows" :  {
+            "metrics" :  ["Accuracy", "Precision", "Recall", "F1", "IoU"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" :   "SRI-Net",
+                    "model_fullname" : "SRI-Net, spatial residual inception " ,
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" : "https://www.mdpi.com/2072-4292/11/7/830" ,
+                    "paper_date" :  "04/2019" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : "" ,
+                        "Precision" : 85.8 ,
+                        "Recall" : 81.9,
+                        "F1" : 83.1,
+                        "IoU" : 71.1} },
+                {
+                    "model_name" :   "SegNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+                    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/9165718" ,
+                    "paper_date" :  "09/2020" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 88.0 ,
+                        "Precision" : 91.3 ,
+                        "Recall" : 73.9,
+                        "F1" : 81.7,
+                        "IoU" : 69.2} },
+                {
+                    "model_name" :   "UNet",
+                    "model_fullname" : "Unet" ,
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/9165718" ,
+                    "paper_date" :  "09/2020" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 89.9 ,
+                        "Precision" : 84.7 ,
+                        "Recall" : 84.6,
+                        "F1" : 84.4,
+                        "IoU" : 77.3}},
+                {
+                    "model_name" :   "ENet",
+                    "model_fullname" : "Enet: A deep neural network architecture for real-time semantic segmentation" ,
+                    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/9165718" ,
+                    "paper_date" :  "09/2020" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 90.9 ,
+                        "Precision" : 88.2 ,
+                        "Recall" : 83.1,
+                        "F1" : 85.5,
+                        "IoU" : 74.3}},
+                {
+                    "model_name" :   "ERFNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "ERFNet: Efficient residual factorized ConvNet for real-time semantic segmentation",
+                    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/9165718" ,
+                    "paper_date" :  "09/2020" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 90.2 ,
+                        "Precision" : 82.6 ,
+                        "Recall" : 85.6,
+                        "F1" : 84.4,
+                        "IoU" : 73.3} },
+                {
+                    "model_name" :   "ARC-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/9165718" ,
+                    "paper_date" :  "09/2020" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 92.5 ,
+                        "Precision" : 89.6 ,
+                        "Recall" : 86.8,
+                        "F1" : 87.5,
+                        "IoU" : 77.9} }
+                        
+             ]
+        } }
+    ]
+}

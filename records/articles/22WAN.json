@@ -1,0 +1,22 @@
+{
+    "title": "Building extraction with vision transformer",
+    "author":[
+        {"name":  "Libo Wang"},
+        {"name":  "Shenghui Fang"},
+        {"name" : "Rui Li"}, 
+        {"name":  "Xiaoliang Meng"}
+    ],
+    "type": "article",
+    "year":  2022,
+    "month" : 4,
+    "journal": {
+        "name": "IEEE Transactions on Geoscience and Remote Sensing", 
+        "shortname" : "TGRS"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/9808187"},
+        {"url" :"https://arxiv.org/abs/2111.15637"}],
+    "eprinttype" : "arxiv",    
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/TGRS.2022.3186634"}]
+}

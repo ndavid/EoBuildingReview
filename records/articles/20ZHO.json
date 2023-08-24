@@ -1,0 +1,24 @@
+{
+    "title": "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+    "author":[
+        {"name":  "Dengji Zhou"},
+        {"name":  "Guizhou Wang"},
+        {"name" : "Guojin He"}, 
+        {"name":  "Tengfei Long"},
+        {"name":  "Ranyu Yin"},
+        {"name":  "Zhaoming Zhang"},
+        {"name" : "Sibao Chen"}, 
+        {"name":  "Bin Luo"}
+    ],
+    "type": "article",
+    "year":  2020,
+    "month" : 12,
+    "journal": {
+        "name": "Sensors MDPI", 
+        "shortname" : "Sensors"},
+    "link": [
+        {"url":"https://www.mdpi.com/1424-8220/20/24/7241"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.3390/s20247241"}]
+}

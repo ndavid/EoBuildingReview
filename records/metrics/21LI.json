@@ -1,0 +1,205 @@
+{ 
+    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+    "paper_date" :   "08/2021",
+    "tables" :  [ { 
+        "title" : "TABLE 2 : ACCURACIES (%) OF DIFFERENT NETWORKS FOR BUILDING FOOTPRINT GENERATION IN THE INRIA DATASET",
+        "rows" :  {
+            "metrics" :  ["F1", "IoU", "B SSIM", "B F-measure"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "FNC-8s",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Fully convolutional networks for semantic segmentation",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 84.79,
+                        "IoU": 73.60,
+                        "B SSIM": 85.65,
+                        "B F-measure" : 27.01 }},
+                {
+                    "model_name" : "FNC-8s-AFM",
+                    "model_fullname" : "" ,
+                    "model_base" : "FCN-8s",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 85.92,
+                        "IoU": 75.31,
+                        "B SSIM": 86.47,
+                        "B F-measure" : 29.92 }},
+                {
+                    "model_name" : "SegNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 84.43,
+                        "IoU": 73.05,
+                        "B SSIM": 85.47,
+                        "B F-measure" : 27.16 }},
+                {
+                    "model_name" : "SegNet-AFM",
+                    "model_fullname" : "" ,
+                    "model_base" : "SegNet",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 86.18,
+                        "IoU": 75.72,
+                        "B SSIM": 86.88,
+                        "B F-measure" : 31.38 }},
+                {
+                    "model_name" : "UNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "U-Net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 84.83,
+                        "IoU": 73.66,
+                        "B SSIM": 86.76,
+                        "B F-measure" : 28.98 }},
+                {
+                    "model_name" : "UNet-AFM",
+                    "model_fullname" : "" ,
+                    "model_base" : "UNet",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 86.68,
+                        "IoU": 76.49,
+                        "B SSIM": 87.07,
+                        "B F-measure" : 33.77 }},
+                {
+                    "model_name" : "FC-DenseNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "The one hundred layers tiramisu: Fully convolutional DenseNets for semantic segmentation",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 84.66,
+                        "IoU": 73.41,
+                        "B SSIM": 85.92,
+                        "B F-measure" : 28.96 }},
+                {
+                    "model_name" : "FC-DenseNet-AFM",
+                    "model_fullname" : "" ,
+                    "model_base" : "FC-DenseNet",
+                    "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "F1": 85.41,
+                        "IoU": 74.53,
+                        "B SSIM": 86.20,
+                        "B F-measure" : 29.72 }}
+        ]
+        } }, { 
+            "title" : "TABLE 5 : ACCURACIES (%) OF DIFFERENT DESIGNS FOR THE INCORPORATION OF ATTRACTION FIELD REPRESENTATION IN THE INRIA DATASET",
+            "rows" :  {
+                "metrics" :  ["F1", "IoU", "B SSIM", "B F-measure"],
+                "datasets" :  "Inria Aerial Image Labeling",
+                "subdataset" : "Validation",
+                "rows" :  [
+                    {
+                        "model_name" : "UNet",
+                        "model_fullname" : "" ,
+                        "model_paper" : "U-Net: Convolutional networks for biomedical image segmentation",
+                        "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                        "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                        "paper_date" :   "08/2021",
+                        "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "F1": 84.83,
+                            "IoU": 73.66,
+                            "B SSIM": 86.76,
+                            "B F-measure" : 28.98 }},
+                    {
+                        "model_name" : "Unet-AFM",
+                        "model_fullname" : "" ,
+                        "model_base" : "Unet",
+                        "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                        "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                        "paper_date" :   "08/2021",
+                        "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "F1": 86.68,
+                            "IoU": 76.49,
+                            "B SSIM": 87.07,
+                            "B F-measure" :33.77 }},
+                    {
+                        "model_name" : "Srivasta",
+                        "model_fullname" : "" ,
+                        "model_paper" : "Joint height estimation and semantic labeling of monocular aerial images with CNNS",
+                        "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                        "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                        "paper_date" :   "08/2021",
+                        "code_links" :  [""],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "F1": 85.97,
+                            "IoU": 75.39,
+                            "B SSIM": 86.54,
+                            "B F-measure" :29.83 }},
+                    {
+                        "model_name" : "SegNet Multitask-Loss",
+                        "model_fullname" : "" ,
+                        "model_paper" : "Multitask learning for segmentation of building footprints with deep neural networks",
+                        "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                        "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                        "paper_date" :   "08/2021",
+                        "code_links" :  ["https://github.com/lqycrystal/AFM_building"],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "F1": 86.10,
+                            "IoU": 75.59,
+                            "B SSIM": 86.67,
+                            "B F-measure" : 29.80 }},
+                    {
+                        "model_name" : "Mou Zhu",
+                        "model_fullname" : "" ,
+                        "model_paper" : "Vehicle instance segmentation from aerial image and video using a multitask learning residual fully convolutional network",
+                        "paper_title" : "Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation",
+                        "paper_url" :  "https://ieeexplore.ieee.org/document/9538384",
+                        "paper_date" :   "08/2021",
+                        "code_links" :  [""],
+                        "model_links" :  [],
+                        "metrics" :  {
+                            "F1": 85.48,
+                            "IoU": 74.63,
+                            "B SSIM": 86.29,
+                            "B F-measure" : 30.06 }}
+            ]
+            } }
+    ]
+}

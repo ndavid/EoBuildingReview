@@ -1,0 +1,68 @@
+{ 
+    "paper_title" :  "CT-UNet: Context-Transfer-UNet for Building Segmentation in Remote Sensing Images",
+    "paper_url" :  "https://ieeexplore.ieee.org/document/9412355",
+    "paper_date" :   "08/2021",
+    "tables" :  [ { 
+        "title" : "Numerical evaluation on test set",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Bellingham",
+                "Bloomington", 
+                "Innsbruck", 
+                "San Francisco", 
+                "East Tyrol", 
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "SegNet(Multi-Task Loss)",
+                    "model_fullname" : "SegNet(Multi-Task Loss)",
+                    "model_paper" : "Multi-task learning for segmentation of building footprints with deep neural networks",
+                    "paper_title" :  "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+                    "paper_url" :  "https://arxiv.org/abs/1709.05932",
+                    "paper_date" :   "09/2017",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [72.43, 77.68, 72.28, 64.34, 76.15, 74.49],
+                        "Accuracy" : [95.71, 95.60, 95.81, 98.76, 94.48, 96.07] } },
+                {
+                    "model_name" :   "Stack UNet Raisa",
+                    "model_fullname" : "Stacked U-Nets (Raisa Energy)",
+                    "model_paper" : "Automatic pixelwise object labeling for aerial imagery using stacked u-nets",
+                    "paper_title" :  "Automatic pixelwise object labeling for aerial imagery using stacked u-nets",
+                    "paper_url" :  "https://arxiv.org/abs/1803.04953",
+                    "paper_date" :   "03/2018",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [77.29, 68.52, 72.84, 75.38, 78.72, 74.55],
+                        "Accuracy" : [96.69, 92.40, 99.25, 98.11, 93.79, 96.05] } },
+                {
+                    "model_name" :   "U-Net ResNet-34",
+                    "model_fullname" : "U-Net ResNet-34",
+                    "model_paper" : "U-net: convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "Transfer learning and u-net for buildings segmentation",
+                    "paper_url" :  "https://dl.acm.org/doi/10.1145/3314074.3314088",
+                    "paper_date" :   "03/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : ["", "", "", "", "", 81.57],
+                        "Accuracy" : ["", "", "", "", "", ""] } },
+                {
+                    "model_name" :   "CT-Unet",
+                    "model_fullname" : "Context-Transfer-UNet ",
+                    "paper_title" :  "CT-UNet: Context-Transfer-UNet for Building Segmentation in Remote Sensing Images",
+                    "paper_url" :  "https://ieeexplore.ieee.org/document/9412355",
+                    "paper_date" :   "08/2021",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [87.62, 82.87, 85.28, 84.14, 86.73, 85.33],
+                        "Accuracy" : [97.28, 97.31, 96.73, 97.96, 96.23, 97.10] } }
+             ]
+    } } 
+    ]
+}

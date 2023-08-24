@@ -1,0 +1,215 @@
+{ 
+    "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+    "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+    "paper_date" :   "04/2021",
+    "tables" :  [ { 
+        "title" : "Numerical evaluation on test set",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Bellingham",
+                "Bloomington", 
+                "Innsbruck", 
+                "San Francisco", 
+                "East Tyrol", 
+                "Overall"],
+            "rows" :  [
+                {
+                "model_name" :   "MLP",
+                "model_fullname" : "MLP_INRIA",
+                "model_paper" : "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+                "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                "paper_date" :   "17/11/2016",
+                "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [56.11, 50.40, 61.03, 61.38, 62.51, 59.31],
+                    "Accuracy" : [95.37, 95.27, 95.37, 87.00, 96.61, 93.93] } },
+                {
+                "model_name" :   "UNet AMLL",
+                "model_fullname" : "U-net with novel training/test strategy AMLL",
+                "model_paper" : "",
+                "paper_title" :  "Large-scale semantic classification: outcome of the first year of Inria aerial image labeling benchmark",
+                "paper_url" :  "https://inria.hal.science/hal-01767807",
+                "paper_date" :   "07/2018",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [67.14, 65.43, 72.27, 75.72, 74.67, 72.55],
+                    "Accuracy" : [96.64, 96.73, 96.66, 91.80, 97.70, 95.91] } },
+                {
+                "model_name" :   "FCN",
+                "model_fullname" : "FCN VGG",
+                "model_paper" : "HF-FCN: Hierarchically fused fully convolutional network for robust building extraction",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [69.02, 58.69, 67.06, 65.55, 72.74, 66.28],
+                    "Accuracy" : [96.88, 96.06, 96.07, 88.54, 97.49, 95.01] } },
+                {
+                "model_name" :   "SegNet",
+                "model_fullname" : "",
+                "model_paper" : "Segnet: A deep convolutional encoder-decoder architecture for image segmentation",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [70.60, 64.67, 72.33, 69.36, 76.70, 70.29],
+                    "Accuracy" : [97.03, 96.58, 96.65, 89.55, 97.90, 95.54] } },
+                {
+                "model_name" :   "LinkNet",
+                "model_fullname" : "",
+                "model_paper" : "Linknet: Exploiting encoder representations for efficient semantic segmentation",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [69.59, 66.51, 75.25, 73.27, 78.39, 72.83],
+                    "Accuracy" : [96.97, 96.82, 97.07, 91.10, 98.08, 96.01] } },
+                {
+                "model_name" :   "Ternausnet",
+                "model_fullname" : "Unet VGG11 pretrained",
+                "model_paper" : "Ternausnet: U-net with VGG11 encoder pretrained on imagenet for image segmentation",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [70.14, 69.31, 74.98, 74.55, 78.71, 73.83],
+                    "Accuracy" : [96.91, 97.06, 96.99, 91.52, 98.09, 96.12] } },
+                {
+                "model_name" :   "Deeplabv3+",
+                "model_fullname" : "",
+                "model_paper" : "Encoderdecoder with atrous separable convolution for semantic image segmentation",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [72.36, 75.45, 76.39, 78.38, 80.11, 77.04],
+                    "Accuracy" : [97.01, 97.53, 97.05, 92.48, 98.16, 96.45] } },
+                {
+                "model_name" :   "E-D-Net",
+                "model_fullname" : "E-D-Net",
+                "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+                "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+                "paper_date" :   "04/2021",
+                "code_links" :  [],
+                "model_links" :  [],
+                "metrics" :  {
+                    "IoU" : [73.12, 75.58, 77.66, 79.81, 80.61, 78.08],
+                    "Accuracy" : [97.22, 97.64, 97.31, 92.26, 98.25, 96.73] } }
+             ]
+        } },
+    {
+    "title" : "Numerical eval. on small validation set",
+    "rows" :  {
+        "metrics" :  ["IoU", "Accuracy"],
+        "datasets" :  "Inria Aerial Image Labeling",
+        "subdataset" :  [  
+            "Austin",
+            "Chicago", 
+            "Kitsap", 
+            "West Tyrol",
+            "Vienna",
+            "Overall"],
+        "rows" :  [
+            {
+            "model_name" :   "MLP",
+            "model_fullname" : "MLP_INRIA",
+            "paper_title" :  "High-Resolution Semantic Labeling with Convolutional Neural Networks",
+            "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+            "paper_date" :   "17/11/2016",
+            "code_links" :  ["https://github.com/emaggiori/CaffeRemoteSensing"],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [61.20, 61.30, 51.50, 57.95, 72.13, 64.67],
+                "Accuracy" : [94.20, 90.43, 98.92, 96.66, 91.87, 94.42] } },
+            {
+            "model_name" :   "FCN",
+            "model_fullname" : "FCN VGG",
+            "model_paper" : "HF-FCN: Hierarchically fused fully convolutional network for robust building extraction",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [69.37, 74.08, 68.36, 67.36, 72.69, 71.27],
+                "Accuracy" : [95.02, 94.80, 95.11, 98.79, 93.55, 95.45] } },
+            {
+            "model_name" :   "LinkNet",
+            "model_fullname" : "",
+            "model_paper" : "Linknet: Exploiting encoder representations for efficient semantic segmentation",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [71.62, 77.13, 74.32, 69.24, 77.33, 75.78],
+                "Accuracy" : [95.63, 95.47, 95.69, 98.80, 94.28, 95.97] } },
+            {
+            "model_name" :   "Ternausnet",
+            "model_fullname" : "Unet VGG11 pretrained",
+            "model_paper" : "Ternausnet: U-net with VGG11 encoder pretrained on imagenet for image segmentation",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [77.29, 68.52, 72.84, 75.38, 78.72, 76.55],
+                "Accuracy" : [96.69, 92.40, 99.25, 98.11, 93.79, 96.05] } },
+            {
+            "model_name" :   "Multi-Task",
+            "model_fullname" : "",
+            "model_paper" : "Multi-task learning for segmentation of building footprints with deep neural networks",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [72.43, 77.68, 72.28, 64.34, 76.15, 74.49],
+                "Accuracy" : [95.71, 95.60, 95.81, 98.76, 94.48, 96.07] } },
+            {
+            "model_name" :   "Building-A-Nets",
+            "model_fullname" : "",
+            "model_paper" : "Building-A-Nets: Robust building extraction from high-resolution remote sensing images with adversarial networks",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [80.14, 79.31, 72.77, 74.55, 75.71, 78.73],
+                "Accuracy" : [96.91, 97.06, 96.99, 93.52, 98.09, 96.71] } },
+            {
+            "model_name" :   "E-D-Net",
+            "model_fullname" : "E-D-Net",
+            "paper_title" :  "E-D-Net: Automatic Building Extraction From High-Resolution Aerial Images With Boundary Information",
+            "paper_url" :  "https://ieeexplore.ieee.org/document/9408358",
+            "paper_date" :   "04/2021",
+            "code_links" :  [],
+            "model_links" :  [],
+            "metrics" :  {
+                "IoU" : [81.85, 78.46, 77.64, 73.76, 79.89, 79.78],
+                "Accuracy" : [94.78, 98.23, 98.01, 93.25, 79.89, 79.78] } }
+            ]
+    } } 
+    ]
+}
+

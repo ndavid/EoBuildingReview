@@ -1,0 +1,105 @@
+{ 
+    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",
+    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+    "paper_date" :   "06/2022",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["mIoU", "FPS", "Memory (MB)"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "Deeplabv3+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 55.90,
+                        "FPS": 1.67 ,
+                        "Memory (MB)" : 5122} },
+                {
+                    "model_name" : "FCN-8s",
+                    "model_fullname" : "Fully convolutional networks" ,
+                    "model_paper" : "Fully convolutional networks for semantic segmentation",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 69.10,
+                        "FPS": 1.90 ,
+                        "Memory (MB)" : 2447} },
+                {
+                    "model_name" : "STDC",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Rethinking bisenet for real-time semantic segmentation",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 72.44,
+                        "FPS": 4.97 ,
+                        "Memory (MB)" : 7410} },
+                {
+                    "model_name" : "CascadePSP",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Cascadepsp: toward class-agnostic and very highresolution segmentation via global and local refinement",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 69.40,
+                        "FPS": 0.03 ,
+                        "Memory (MB)" : 3236} },
+                {
+                    "model_name" : "GLNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Collaborative global-local networks for memory-efficient segmentation of ultra-high resolution images",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 71.20,
+                        "FPS": 0.05 ,
+                        "Memory (MB)" : 2663} },
+                {
+                    "model_name" : "FCtL",
+                    "model_fullname" : "" ,
+                    "model_paper" : "From contexts to locality: Ultra-high resolution image segmentation via locality-aware contextual correlation",
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 72.87,
+                        "FPS": 0.04 ,
+                        "Memory (MB)" : 4332} },
+                {
+                    "model_name" : "ISDNet",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",  
+                    "paper_url" :  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf",
+                    "paper_date" :   "06/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "mIoU" : 74.23,
+                        "FPS": 6.90 ,
+                        "Memory (MB)" : 4680} } 
+             ]
+        } }
+    ]
+}

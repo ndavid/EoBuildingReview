@@ -1,0 +1,19 @@
+{
+    "title": "Fully Convolutional Networks for Multisource Building Extraction From an Open Aerial and Satellite Imagery Data Set",
+    "author":[
+        {"name":  "Shunping Ji"},
+        {"name":  "Shiqing Wei"},
+        {"name" : "Meng Lu"}
+    ],
+    "type": "article",
+    "year":  2019,
+    "month" : 1,
+    "journal": {
+        "name": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING", 
+        "shortname" : "TGRS"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/8444434"}],
+    "identifier": [
+        {"type":"doi",
+         "id":" 10.1109/TGRS.2018.2858817"}]
+}

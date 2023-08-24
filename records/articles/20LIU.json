@@ -1,0 +1,27 @@
+{
+    "title": "ARC-Net: An Efficient Network for Building Extraction From High-Resolution Aerial Images",
+    "author":[
+        {"name":  "YAOHUI LIU"},
+        {"name":  "JIE ZHOU"},
+        {"name" : "WENHUA QI"}, 
+        {"name":  "XIAOLI LI"},
+        {"name":  "LUTZ GROSS"},
+        {"name":  "QI SHAO"},
+        {"name":  "ZHENGGUANG ZHAO"},
+        {"name":  "LI NI"},
+        {"name":  "XIWEI FAN"},
+        {"name" : "ZHIQIANG LI"}
+    ],
+    "type": "artice",
+    "year":  2020,
+    "month" : 9,
+    "journal": {
+        "name": "IEEE Access", 
+        "shortname" : "IEEE Access"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/9165718"}],
+    "eprinttype" : "HAL",
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/ACCESS.2020.3015701"}]
+}

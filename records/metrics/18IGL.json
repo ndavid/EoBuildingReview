@@ -1,0 +1,54 @@
+{ 
+    "paper_title" :  "TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation",
+    "paper_url" :  "https://arxiv.org/abs/1801.05746",
+    "paper_date" :   "01/2018",
+    "tables" :  [ { 
+        "title" : "Numerical eval validation",
+        "rows" :  {
+            "metrics" :  ["IoU"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "TernausNet a",
+                    "model_fullname" : "TernausNet UNet VGG11 LeCun uniform initializer:",
+                    "model_type" : "Unet",
+                    "encoder" : "VGG11",
+                    "weight" : "LeCun uniform",
+                    "paper_title" :  "TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   "01/2018",
+                    "code_links" :  ["https://github.com/ternaus/TernausNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 0.593 } },
+                {
+                    "model_name" :   "TernausNet b",
+                    "model_fullname" : "TernausNet UNet VGG11 LeCun uniform initializer:",
+                    "model_type" : "Unet",
+                    "encoder" : "VGG11",
+                    "weight" : "ImageNet",
+                    "paper_title" :  "TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   "01/2018",
+                    "code_links" :  ["https://github.com/ternaus/TernausNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 0.686 } },
+                {
+                    "model_name" :   "TernausNet c",
+                    "model_fullname" : "TernausNet UNet VGG11 LeCun uniform initializer:",
+                    "model_type" : "Unet",
+                    "encoder" : "VGG11",
+                    "weight" : "Carvana",
+                    "paper_title" :  "TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation",
+                    "paper_url" :  "https://arxiv.org/pdf/1611.01962.pdf",
+                    "paper_date" :   "01/2018",
+                    "code_links" :  ["https://github.com/ternaus/TernausNet"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 0.687 } }
+             ]
+        } }
+    ]
+}

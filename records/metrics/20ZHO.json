@@ -1,0 +1,75 @@
+{ 
+    "paper_title" :  "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+    "paper_url" :  "https://www.mdpi.com/1424-8220/20/24/7241",
+    "paper_date" :   "12/2020",
+    "tables" :  [ { 
+        "title" : "Experimental results on the Inria Aerial Image Labeling Dataset",
+        "rows" :  {
+            "metrics" :  ["Accuracy", "IoU", "Precision", "Recall", "F1"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation random split",
+            "rows" :  [
+                {
+                    "model_name" : "PSPNet",
+                    "model_fullname" : "Pyramid scene parsing network" ,
+                    "model_paper" : "Pyramid scene parsing network",
+                    "paper_title" :  "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+                    "paper_url" :  "https://www.mdpi.com/1424-8220/20/24/7241",
+                    "paper_date" :   "12/2020",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 90.11,
+                        "IoU": 91.47 ,
+                        "Precision" : 76.73,
+                        "Recall" : 77.72,
+                        "F1" : 75.85} },
+                {
+                    "model_name" : "Deeplabv3",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Rethinking atrous convolution for semantic image segmentation",
+                    "paper_title" :  "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+                    "paper_url" :  "https://www.mdpi.com/1424-8220/20/24/7241",
+                    "paper_date" :   "12/2020",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 91.18,
+                        "IoU": 60.30 ,
+                        "Precision" : 92.37,
+                        "Recall" : 63.60,
+                        "F1" : 74.84} },
+                {
+                    "model_name" : "SegNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Segnet: A deep convolutional encoder-decoder architecture for image segmentation",
+                    "paper_title" :  "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+                    "paper_url" :  "https://www.mdpi.com/1424-8220/20/24/7241",
+                    "paper_date" :   "12/2020",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 94.24,
+                        "IoU": 76.71 ,
+                        "Precision" : 85.04,
+                        "Recall" : 88.71,
+                        "F1" : 86.80} },
+                {
+                    "model_name" : "PISANet",
+                    "model_fullname" : "Pyramid Self-Attention Network",
+                    "backbone" : "ResNet-101" ,
+                    "paper_title" :  "Robust Building Extraction for High Spatial Resolution Remote Sensing Images with Self-Attention Network",
+                    "paper_url" :  "https://www.mdpi.com/1424-8220/20/24/7241",
+                    "paper_date" :   "12/2020",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Accuracy" : 94.50,
+                        "IoU": 77.45 ,
+                        "Precision" : 85.92,
+                        "Recall" : 88.68,
+                        "F1" : 87.27} } 
+             ]
+        } }
+    ]
+}

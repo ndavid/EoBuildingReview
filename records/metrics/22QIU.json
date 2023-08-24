@@ -1,0 +1,99 @@
+{ 
+    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+    "paper_date" :   "12/2022",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["IoU", "F1", "Recall",  "Precision"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Train Val random split",
+            "rows" :  [
+                {
+                    "model_name" : "UNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 79.58, 
+                        "F1" : 88.63, 
+                        "Recall" : 89.50,  
+                        "Precision" : 87.77} },
+                {
+                    "model_name" : "PSPNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Pyramid Scene Parsing Network",
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 78.21, 
+                        "F1" : 87.77, 
+                        "Recall" : 88.32,  
+                        "Precision" : 87.23} },
+                {
+                    "model_name" : "DeepLabV3+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 79.85, 
+                        "F1" : 88.79, 
+                        "Recall" : 89.11,  
+                        "Precision" : 88.48} },
+                {
+                    "model_name" : "HRNetV2",
+                    "model_fullname" : "" ,
+                    "model_paper" : "High-Resolution Representations for Labeling Pixels and Regions",
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 81.09, 
+                        "F1" : 89.56, 
+                        "Recall" : 89.55,  
+                        "Precision" : 89.56} },
+                {
+                    "model_name" : "CFENet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "A Context Feature Enhancement Network for Building Extraction from HighResolution Remote Sensing Imagery",
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 81.76, 
+                        "F1" : 89.96, 
+                        "Recall" : 90.38,  
+                        "Precision" : 89.55} },
+                {
+                    "model_name" : "AFL-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "AFL-Net: Attentional Feature Learning Network for Building Extraction from Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/15/1/95",
+                    "paper_date" :   "12/2022",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 82.10, 
+                        "F1" : 90.17, 
+                        "Recall" : 90.16,  
+                        "Precision" : 90.18} }
+
+             ]
+        } }
+    ]
+}

@@ -1,0 +1,174 @@
+{ 
+    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+    "paper_date" :   "11/2019",
+    "tables" :  [ { 
+        "title" : "Evaluation results on the test set of Inria dataset",
+        "rows" :  {
+            "metrics" :  ["Recall", "Precision", "F1", "IoU"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" :   "SRI-Net",
+                    "model_fullname" : "SRI-Net, spatial residual inception " ,
+                    "paper_title" :  "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_url" : "https://www.mdpi.com/2072-4292/11/7/830" ,
+                    "paper_date" :  "04/2019" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : 81.46,
+                        "Precision" : 85.77 ,
+                        "F1" : 83.56,
+                        "IoU" : 71.76} },
+                {
+                    "model_name" :   "2-levels UNets",
+                    "model_fullname" : "Stacked U-Nets (Raisa Energy)" ,
+                    "paper_title" :  "Automatic pixelwise object labeling for aerial imagery using stacked u-nets",
+                    "paper_url" : "https://arxiv.org/abs/1803.04953" ,
+                    "paper_date" :  "03/2018" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : "",
+                        "Precision" : "" ,
+                        "F1" : "",
+                        "IoU" : 74.55} },
+                {
+                    "model_name" :   "Building-A-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "Building-A-Nets: Robust Building Extraction From High-Resolution Remote Sensing Images With Adversarial Networks",
+                    "paper_url" : "https://ieeexplore.ieee.org/document/8453267" ,
+                    "paper_date" :  "10/2018" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : "",
+                        "Precision" : "" ,
+                        "F1" : "",
+                        "IoU" : 78.73} },
+                {
+                    "model_name" :   "Web-Net",
+                    "model_fullname" : "Web-Net" ,
+                    "paper_title" :  "Web-Net: A Novel Nest Networks with Ultra-Hierarchical Sampling for Building Extraction from Aerial Imageries ",
+                    "paper_url" : "https://www.mdpi.com/2072-4292/11/16/1897" ,
+                    "paper_date" :  "08/2019" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : "",
+                        "Precision" : "" ,
+                        "F1" : "",
+                        "IoU" : 80.10} },
+                {
+                    "model_name" :   "FastFCN",
+                    "model_fullname" : "" ,
+                    "model_paper" : "FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation",
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : 83.55,
+                        "Precision" : 87.51 ,
+                        "F1" : 85.48,
+                        "IoU" : 74.64} },
+                {
+                    "model_name" :   "DeepLabv3+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : 84.0,
+                        "Precision" : 87.88 ,
+                        "F1" : 85.90,
+                        "IoU" : 75.28}  },
+                {
+                    "model_name" :   "EU-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "Recall" : 88.14,
+                        "Precision" : 90.28 ,
+                        "F1" : 89.20,
+                        "IoU" : 80.50}  }
+                        
+             ]
+        } },
+        {
+        "title" : "IoU Metric Inria dataset",
+        "rows" :  {
+            "metrics" :  ["IoU"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Austin",
+                "Chicago", 
+                "Kitsap", 
+                "West Tyrol",
+                "Vienna",
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "Web-Net",
+                    "model_fullname" : "Web-Net" ,
+                    "paper_title" :  "Web-Net: A Novel Nest Networks with Ultra-Hierarchical Sampling for Building Extraction from Aerial Imageries ",
+                    "paper_url" : "https://www.mdpi.com/2072-4292/11/16/1897" ,
+                    "paper_date" :  "08/2019" ,
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [82.49, 73.90, 70.71, 83.72, 83.49, 80.10]} },
+                {
+                    "model_name" :   "FastFCN",
+                    "model_fullname" : "" ,
+                    "model_paper" : "FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation",
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [75.56, 70.05, 64.37, 74.10, 78.97, 74.64]} },
+                {
+                    "model_name" :   "DeepLabv3+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [78.89, 69.93, 66.11, 73.09, 79.24, 75.28]}  },
+                {
+                    "model_name" :   "EU-Net",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "EU-Net: An Efficient Fully Convolutional Network for Building Extraction from Optical Remote Sensing Images",
+                    "paper_url" :  "https://www.mdpi.com/2072-4292/11/23/2813",
+                    "paper_date" :   "11/2019",
+                    "code_links" :  [""],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [82.86, 76.18, 70.68, 80.83, 83.55, 80.50]}  }
+             ]
+        } }
+    ]
+}
+
+
+
+
+
+
+
+

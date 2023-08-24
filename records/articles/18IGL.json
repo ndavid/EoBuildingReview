@@ -1,0 +1,16 @@
+{
+    "title": "TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation",
+    "author":[
+        {"name":  "Vladimir Iglovikov"},
+        {"name":  "Alexey Shvets"}
+    ],
+    "type": "preprint",
+    "year":  2018,
+    "month" : 1,
+    "link": [
+        {"url":"https://arxiv.org/abs/1801.05746"}],
+    "eprinttype" : "arxiv",
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.48550/arXiv.1801.05746"}]
+}

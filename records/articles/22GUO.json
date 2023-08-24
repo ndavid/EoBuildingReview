@@ -1,0 +1,27 @@
+{
+    "title": "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",
+    "author":[
+        {"name":  "Shaohua Guo"},
+        {"name":  "Liang Liu"},
+        {"name" : "Zhenye Gan"}, 
+        {"name":  "Yabiao Wang"},
+        {"name":  "Wuhao Zhang"},
+        {"name":  "Chengjie Wang"},
+        {"name":  "Guannan Jiang"},
+        {"name":  "Ran Yi"},
+        {"name":  "Lizhuang Ma"},
+        {"name":  "Ke Xu"}
+    ],
+    "type": "proceding",
+    "year":  2022,
+    "month" : 6,
+    "conference": {
+        "name": "Computer Vision and Pattern Recognition Conference", 
+        "shortname" : "CVPR"},
+    "link": [
+        {"url":"https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf"}],
+    "eprinttype" : "thecvf",
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/CVPR52688.2022.00432"}]
+}

@@ -1,0 +1,57 @@
+{ 
+    "paper_title" :  "Machine-learned Regularization and Polygonization of Building Segmentation Masks",
+    "paper_url" :  "https://arxiv.org/abs/2007.12587",
+    "paper_date" :   "01/2021",
+    "tables" :  [ { 
+        "title" : "Numerical evaluation on test set",
+        "rows" :  {
+            "metrics" :  ["IoU", "Accuracy"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" :  [  
+                "Bellingham",
+                "Bloomington", 
+                "Innsbruck", 
+                "San Francisco", 
+                "East Tyrol", 
+                "Overall"],
+            "rows" :  [
+                {
+                    "model_name" :   "R2Unet",
+                    "model_fullname" : "Recurrent residual convolutional neural Unet ",
+                    "model_paper" : "Recurrent residual convolutional neural network based on u-net (r2u-net) for medical image segmentation",
+                    "paper_title" :  "Machine-learned Regularization and Polygonization of Building Segmentation Masks",
+                    "paper_url" :  "https://arxiv.org/abs/2007.12587",
+                    "paper_date" :   "01/2021",
+                    "code_links" :  ["https://github.com/zorzi-s/projectRegularization"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [70.30, 72.94, 73.48, 76.29, 75.92, 74.57],
+                        "Accuracy" : [97.04, 97.40, 96.65, 91.85, 97.84, 96.20] } },
+                {
+                    "model_name" :   "Zorzi-2019",
+                    "model_fullname" : "",
+                    "model_paper" : "Regularization of building boundaries in satellite images using adversarial and regularized losses",
+                    "paper_title" :  "Machine-learned Regularization and Polygonization of Building Segmentation Masks",
+                    "paper_url" :  "https://arxiv.org/abs/2007.12587",
+                    "paper_date" :   "01/2021",
+                    "code_links" :  ["https://github.com/zorzi-s/projectRegularization"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [63.90, 63.65, 60.20, 55.97, 65.56, 59.81],
+                        "Accuracy" : [96.37, 96.51, 95.23, 84.60, 96.88, 93.92] } },
+                {
+                    "model_name" :   "Zorzi-2021",
+                    "model_fullname" : "",
+                    "paper_title" :  "Machine-learned Regularization and Polygonization of Building Segmentation Masks",
+                    "paper_url" :  "https://arxiv.org/abs/2007.12587",
+                    "paper_date" :   "01/2021",
+                    "code_links" :  ["https://github.com/zorzi-s/projectRegularization"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : [70.36, 73.01, 73.34, 75.88, 76.15, 74.40],
+                        "Accuracy" : [96.99, 97.36, 96.77, 91.55, 97.84, 96.10] } }
+             ]
+        } }
+    ]
+}
+

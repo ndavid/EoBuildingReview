@@ -1,0 +1,22 @@
+{
+    "title": "Sgformer: A Local and Global Features Coupling Network for Semantic Segmentation of Land Cover",
+    "author":[
+        {"name":  "Liguo Weng"},
+        {"name":  "Kai Pang"},
+        {"name" : "Min Xia"}, 
+        {"name":  "Haifeng Lin"},
+        {"name":  "Ming Qian"},
+        {"name":  "Changjie Zhu"}
+    ],
+    "type": "article",
+    "year":  2023,
+    "month" : 7,
+    "journal": {
+        "name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing", 
+        "shortname" : "JSTARS"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/10184025"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/JSTARS.2023.3295729"}]
+}

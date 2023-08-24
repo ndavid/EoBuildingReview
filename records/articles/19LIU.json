@@ -1,0 +1,23 @@
+{
+    "title": "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+    "author":[
+        {"name":  "Penghua Liu"},
+        {"name":  "Xiaoping Liu"},
+        {"name" : "Mengxi Liu"}, 
+        {"name":  "Qian Shi"},
+        {"name" : "Jinxing Yang"},
+        {"name" : "Xiaocong Xu"},
+        {"name" : "Yuanying Zhang"}
+    ],
+    "type": "article",
+    "year":  2019,
+    "month" : 4,
+    "journal": {
+        "name": "Remote Sensing", 
+        "shortname" : "remote sensing"},
+    "link": [
+        {"url":"https://www.mdpi.com/2072-4292/11/7/830"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.3390/rs11070830"}]
+}

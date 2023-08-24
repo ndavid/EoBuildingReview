@@ -1,0 +1,20 @@
+{
+    "title": "P-LINKNET :LINKNET WITH SPATIAL PYRAMID POOLING FOR HIGH-RESOLUTION SATELLITE IMAGERY",
+    "author":[
+        {"name":  "Yi Ding"},
+        {"name":  "Muyu Wu"},
+        {"name" : "Yongshu Xu"}, 
+        {"name":  "Songjiang Duan"}
+    ],
+    "type": "proceding",
+    "year":  2020,
+    "month" : 8,
+    "conference": {
+        "name": "ISPRS Congress", 
+        "shortname" : "ISPRS Congress"},
+    "link": [
+        {"url":"https://isprs-archives.copernicus.org/articles/XLIII-B3-2020/35/2020/"}],
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.5194/isprs-archives-XLIII-B3-2020-35-2020, 2020"}]
+}

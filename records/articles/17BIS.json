@@ -1,0 +1,23 @@
+{
+    "title": "Multi-Task Learning for Segmentation of Building Footprints with Deep Neural Networks",
+    "author":[
+        {"name":  "Benjamin Bischke"},
+        {"name":  "Patrick Helber"},
+        {"name" : "Joachim Folz"}, 
+        {"name":  "Damian Borth"},
+        {"name":  "Andreas Dengel"}
+    ],
+    "type": "preprint",
+    "year":  2017,
+    "month" : 9,
+    "conference": {
+        "name": "IEEE International Conference on Image Processing", 
+        "shortname" : "ICIP",
+        "yaer" : 2019},
+    "link": [
+        {"url":"https://arxiv.org/abs/1709.05932"}],
+    "eprinttype" : "arxiv",
+    "identifier": [
+        {"type":"doi",
+         "id":"https://doi.org/10.48550/arXiv.1709.05932"}]
+}

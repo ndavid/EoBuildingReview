@@ -1,0 +1,22 @@
+{
+    "title": "CT-UNet: Context-Transfer-UNet for Building Segmentation in Remote Sensing Images",
+    "author":[
+        {"name":  "Sheng Liu"},
+        {"name":  "Huanran Ye"},
+        {"name" : "Kun Jin"}, 
+        {"name":  "Haohao Cheng"}
+    ],
+    "type": "conference",
+    "year":  2021,
+    "month" : 8,
+    "conference": {
+        "name": "International Conference on Pattern Recognition", 
+        "shortname" : "ICPR"},
+    "link": [
+        {"url":"https://ieeexplore.ieee.org/document/9412355"},
+        {"url" :"https://link.springer.com/article/10.1007/s11063-021-10592-w"}],
+    "eprinttype" : "arxiv",    
+    "identifier": [
+        {"type":"doi",
+         "id":"10.1109/ICPR48806.2021.9412355"}]
+}

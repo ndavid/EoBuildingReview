@@ -1,0 +1,140 @@
+{ 
+    "paper_title" :  "Building extraction with vision transformer",
+    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+    "paper_date" :   "04/2022",
+    "tables" :  [ { 
+        "title" : "",
+        "rows" :  {
+            "metrics" :  ["IoU", "Precision", "Recall", "F1"],
+            "datasets" :  "Inria Aerial Image Labeling",
+            "subdataset" : "Validation",
+            "rows" :  [
+                {
+                    "model_name" : "UNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "U-net: Convolutional networks for biomedical image segmentation",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 70.78,
+                        "Precision" : 85.18 ,
+                        "Recall" : 80.72,
+                        "F1" : 82.89} },
+                {
+                    "model_name" : "SRI-Net",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Building Footprint Extraction from High-Resolution Images via Spatial Residual Inception Convolutional Neural Network",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 76.84,
+                        "Precision" : "" ,
+                        "Recall" : "",
+                        "F1" : 86.32} },
+                {
+                    "model_name" :   "DS-Net",
+                    "model_fullname" : "" ,
+                    "model_paper" : "A Local-Global Dual-Stream Network for Building Extraction From Very-High-Resolution Remote Sensing Images",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 80.73,
+                        "Precision" : "" ,
+                        "Recall" : "",
+                        "F1" : ""} },
+                {
+                    "model_name" : "BRRNet+",
+                    "model_fullname" : "" ,
+                    "model_paper" : "BRRNet: A fully convolutional neural network for automatic building extraction from highresolution remote sensing images",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 77.05,
+                        "Precision" : "" ,
+                        "Recall" : "",
+                        "F1" : 86.61} },
+                {
+                    "model_name" : "SiU-Net",
+                    "model_fullname" : "" ,
+                    "model_paper" : "Fully convolutional networks for multisource building extraction from an open aerial and satellite imagery data set",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 71.40,
+                        "Precision" : 84.60 ,
+                        "Recall" : 82.10,
+                        "F1" : 83.33} },
+                {
+                    "model_name" : "CBRNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "A coarse-to-fine boundary refinement network for building footprint extraction from remote sensing imagery",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 81.10,
+                        "Precision" : 89.93 ,
+                        "Recall" : 89.20,
+                        "F1" : 89.56} },
+                {
+                    "model_name" : "STT",
+                    "model_fullname" : "Sparse Token Transformer" ,
+                    "model_paper" : "Building Extraction from Remote Sensing Images with Sparse Token Transformers",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/KyanChen/STT"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 79.42,
+                        "Precision" : "" ,
+                        "Recall" : "",
+                        "F1" : 87.99} },
+                {
+                    "model_name" : "SwinUperNet",
+                    "model_fullname" : "" ,
+                    "model_paper" : "34",
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 79.53,
+                        "Precision" : 87.55 ,
+                        "Recall" : 89.67,
+                        "F1" : 88.60} },
+                {
+                    "model_name" : "BuildFormer",
+                    "model_fullname" : "" ,
+                    "paper_title" :  "Building extraction with vision transformer",
+                    "paper_url" :  "https://arxiv.org/abs/2111.15637",
+                    "paper_date" :   "04/2022",
+                    "code_links" :  ["https://github.com/WangLibo1995/BuildFormer"],
+                    "model_links" :  [],
+                    "metrics" :  {
+                        "IoU" : 81.44,
+                        "Precision" : 88.81 ,
+                        "Recall" : 90.75,
+                        "F1" : 89.77} }
+        ]
+        } }
+    ]
+}
