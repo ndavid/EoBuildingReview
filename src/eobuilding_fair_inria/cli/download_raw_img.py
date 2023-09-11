@@ -17,6 +17,12 @@ area_metadata_dict = {
         "bbox_wgs84" :  (30.216,  -97.790, 30.299,  -97.6947),
         "dates_interval" : ("2011-01-01", "2013-01-01")
     },
+    "austin_2014" : {
+        "raw_source" : "earth_explorer",
+        "dataset" : "high_res_ortho",
+        "bbox_wgs84" :  (30.216,  -97.790, 30.299,  -97.6947),
+        "dates_interval" : ("2014-01-01", "2015-01-01")
+    },
     "bellingham" : {
         "raw_source" : "earth_explorer",
         "dataset" : "high_res_ortho",

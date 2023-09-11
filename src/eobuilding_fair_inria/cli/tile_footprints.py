@@ -43,12 +43,12 @@ def main():
             (xf_min, yf_min, xf_max, yf_max) = shape(footprints_dict["geometry"]).bounds
             x_num = floor((xf_max - xf_min) / size_m)
             y_num = floor((yf_max - yf_min) / size_m)
-            print(f"{xf_min} {yf_min} {xf_max} {yf_max}")
-            print(f"{x_num} {y_num} ")
+            # print(f"{xf_min} {yf_min} {xf_max} {yf_max}")
+            # print(f"{x_num} {y_num} ")
 
             id_field = footprints_dict['properties'][ini_id_field]
             for i, j in itertools.product(range(0, x_num), range(0, y_num) ):
-                print(f"{i} {j} ")
+                # print(f"{i} {j} ")
 
                 xt_min = xf_min + i*size_m
                 yt_min = yf_min + j*size_m
